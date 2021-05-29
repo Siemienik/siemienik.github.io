@@ -1,80 +1,70 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Siemienik.com',
+  tagline: 'Consulting Services',
+  url: 'https://siemienik.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Siemienik',
+  projectName: 'Siemienik.com',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Siemienik Paweł',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Siemienik',
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+        {to: '/', label: 'Blog', position: 'left', activeBasePath:'blog/'},
+        {to: '/contact', label: 'Contact', position: 'left', activeBaseRegex:'contact$'},
+        {to: '/docs/', position: 'right', label: 'Documentation', activeBaseRegex:'docs/$', items:[
+          {to: '/docs/xtoolset/', position: 'right', label: 'XToolset', activeBasePath:'docs/xtoolset/'},
+          {to: '/docs/exceljs/', position: 'right', label: 'ExcelJS', activeBasePath:'docs/exceljs/'}
+        ]},
+
       ],
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      // links: [
+      //   {
+      //     title: 'Docs',
+      //     items: [
+      //       {
+      //         label: 'XToolset',
+      //         to: '/docs/xtoolset/intro',
+      //       },
+      //       {
+      //         label: 'ExcelJS',
+      //         to: '/docs/exceljs/intro',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'Useful',
+      //     items: [
+      //       {
+      //         label: 'Blog',
+      //         to: '/',
+      //       },
+      //       {
+      //         label: 'Contact',
+      //         to: '/contact',
+      //       },
+      //       {
+      //         label: 'Gitter',
+      //         href: 'https://gitter.im/siemienik/community',
+      //       },
+      //       {
+      //         label: 'GitHub',
+      //         href: 'https://github.com/siemienik',
+      //       },
+      //     ],
+      //   },
+      // ],
+      copyright: `Copyright © ${new Date().getFullYear()} Siemienik Paweł.`,
     },
   },
   presets: [
@@ -84,14 +74,12 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/siemienik/siemienik.com/edit/master/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          routeBasePath:'/',
+          editUrl: 'https://github.com/siemienik/siemienik-com/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
