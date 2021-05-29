@@ -14,20 +14,21 @@ module.exports = {
       title: 'Siemienik Paweł',
       logo: {
         alt: 'Siemienik',
-        src: 'img/logo.svg',
+        src: 'img/SIEMIENIK-sygnet.png',
+        srcDark: 'img/SIEMIENIK-sygnet-white.png'
       },
       items: [
         {to: '/', label: 'Blog', position: 'left', activeBasePath:'blog/'},
         {to: '/contact', label: 'Contact', position: 'left', activeBaseRegex:'contact$'},
-        {to: '/docs/', position: 'right', label: 'Documentation', activeBaseRegex:'docs/$', items:[
-          {to: '/docs/xtoolset/', position: 'right', label: 'XToolset', activeBasePath:'docs/xtoolset/'},
-          {to: '/docs/exceljs/', position: 'right', label: 'ExcelJS', activeBasePath:'docs/exceljs/'}
-        ]},
+        // {to: '/docs/', position: 'right', label: 'Documentation', activeBaseRegex:'docs/$', items:[
+        //   {to: '/docs/xtoolset/', position: 'right', label: 'XToolset', activeBasePath:'docs/xtoolset/'},
+        //   {to: '/docs/exceljs/', position: 'right', label: 'ExcelJS', activeBasePath:'docs/exceljs/'}
+        // ]},
 
       ],
     },
     footer: {
-      style: 'dark',
+      // style: 'dark',
       // links: [
       //   {
       //     title: 'Docs',
@@ -79,7 +80,7 @@ module.exports = {
         blog: {
           showReadingTime: true,
           routeBasePath:'/',
-          editUrl: 'https://github.com/siemienik/siemienik-com/edit/master/',
+          editUrl: 'https://github.com/siemienik/siemienik.com/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
