@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'favicons/favicon.ico',
   organizationName: 'Siemienik',
   projectName: 'Siemienik.com',
   themeConfig: {

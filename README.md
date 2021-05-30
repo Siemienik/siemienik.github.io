@@ -31,3 +31,31 @@ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+## To do:
+
+* [ ] favico
+* [ ] Write blog posts
+* [ ] CI: deployment to GHPages
+* [ ] Plugin Siemienik.com domain
+* [ ] Add "contact" subpage
+* [ ] Add information how to sponsor my OSS activities
+* [ ] Add xtoolset documentation
+* [ ] Write and add exceljs documentation
+* [ ] Add tags descriptions -SEO
+* [ ] Add about me page
+* [ ] Add paid services offer
+
+
+```html
+https://realfavicongenerator.net/favicon_result?file_id=p1f6t148ga1ip51qmu13p41pf11v1o6
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/site.webmanifest">
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+https://realfavicongenerator.net/favicon_result?file_id=p1f6t148ga1ip51qmu13p41pf11v1o6
+```
