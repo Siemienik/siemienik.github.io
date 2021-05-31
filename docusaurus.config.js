@@ -3,12 +3,12 @@ module.exports = {
   title: 'Siemienik.com',
   tagline: 'Consulting Services',
   url: 'https://siemienik.com',
-  baseUrl: '/',
+  baseUrl: '/siemienik.com/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'favicons/favicon.ico',
-  organizationName: 'Siemienik',
-  projectName: 'Siemienik.com',
+  organizationName: 'siemienik',
+  projectName: 'siemienik.com',
   themeConfig: {
     navbar: {
       title: 'Siemienik Paweł',
