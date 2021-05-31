@@ -14,8 +14,7 @@ module.exports = {
       title: 'Siemienik Paweł',
       logo: {
         alt: 'Siemienik',
-        src: 'img/SIEMIENIK-sygnet.png',
-        srcDark: 'img/SIEMIENIK-sygnet-white.png'
+        src: 'img/SIEMIENIK-sygnet-kwadrat-brown-small.png'
       },
       items: [
         {to: '/', label: 'Blog', position: 'left', activeBasePath:'blog/'},
