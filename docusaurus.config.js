@@ -18,11 +18,11 @@ module.exports = {
       },
       items: [
         {to: '/', label: 'Blog', position: 'left', activeBasePath:'blog/'},
-        // {to: '/contact', label: 'Contact', position: 'left', activeBaseRegex:'contact$'},
-        // {to: '/docs/', position: 'right', label: 'Documentation', activeBaseRegex:'docs/$', items:[
-        //   {to: '/docs/xtoolset/', position: 'right', label: 'XToolset', activeBasePath:'docs/xtoolset/'},
-        //   {to: '/docs/exceljs/', position: 'right', label: 'ExcelJS', activeBasePath:'docs/exceljs/'}
-        // ]},
+        {to: '/contact', label: 'Contact', position: 'left', activeBaseRegex:'contact$'},
+        {to: '/docs/', position: 'right', label: 'Documentation', activeBaseRegex:'docs/$', items:[
+          {to: '/docs/xtoolset/', position: 'right', label: 'XToolset', activeBasePath:'docs/xtoolset/'},
+          {to: '/docs/exceljs/', position: 'right', label: 'ExcelJS', activeBasePath:'docs/exceljs/'}
+        ]},
 
       ],
     },

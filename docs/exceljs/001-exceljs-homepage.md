@@ -1,7 +1,7 @@
 ---
-sidebar_position: 1
 slug: ./
 id: homepage
+sidebar_label: Introduction
 ---
 
 # ExcelJS Comunnity Documentation

@@ -15,7 +15,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/">
+            to="/contact#details">
                 Contact me
           </Link>
         </div>
@@ -30,6 +30,14 @@ export default function Home() {
     <Layout title={`Contact`} description="Siemienik Consulting Services Contact">
       <HomepageHeader />
       <main>
+          todo WIP:
+          * gitter
+          * mail
+          * company
+            * tin UE
+            * address
+          * about me description
+          * services description
       </main>
     </Layout>
   );
