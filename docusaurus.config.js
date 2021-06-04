@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Siemienik.com',
-  tagline: 'Consulting Services',
+  tagline: 'The Open Source Software Enthusiast',
   url: 'https://siemienik.com',
   baseUrl: '/siemienik.com/',
   onBrokenLinks: 'throw',
@@ -17,53 +17,44 @@ module.exports = {
         src: 'img/SIEMIENIK-sygnet-kwadrat-brown-small.png'
       },
       items: [
-        {to: '/', label: 'Blog', position: 'left', activeBasePath:'blog/'},
-        {to: '/contact', label: 'Contact', position: 'left', activeBaseRegex:'contact$'},
-        {to: '/docs/', position: 'right', label: 'Documentation', activeBaseRegex:'docs/$', items:[
-          {to: '/docs/xtoolset/', position: 'right', label: 'XToolset', activeBasePath:'docs/xtoolset/'},
-          {to: '/docs/exceljs/', position: 'right', label: 'ExcelJS', activeBasePath:'docs/exceljs/'}
+        {to: '/', label: 'Blog', position: 'left', activeBasePath: 'blog/'},
+        {to: '/contact', label: 'Contact', position: 'left', activeBaseRegex: 'contact$'},
+        {to: '/docs/', position: 'right', label: 'Documentation', activeBasePath: 'docs/', items:[
+          {to: '/docs/xtoolset/', position: 'right', label: 'XToolset', activeBaseRegex: 'docs/[^e].*/'},
+          {to: '/docs/exceljs/', position: 'right', label: 'ExcelJS', activeBasePath: 'docs/exceljs/'}
         ]},
 
       ],
     },
     footer: {
-      // style: 'dark',
-      // links: [
-      //   {
-      //     title: 'Docs',
-      //     items: [
-      //       {
-      //         label: 'XToolset',
-      //         to: '/docs/xtoolset/intro',
-      //       },
-      //       {
-      //         label: 'ExcelJS',
-      //         to: '/docs/exceljs/intro',
-      //       },
-      //     ],
-      //   },
-      //   {
-      //     title: 'Useful',
-      //     items: [
-      //       {
-      //         label: 'Blog',
-      //         to: '/',
-      //       },
-      //       {
-      //         label: 'Contact',
-      //         to: '/contact',
-      //       },
-      //       {
-      //         label: 'Gitter',
-      //         href: 'https://gitter.im/siemienik/community',
-      //       },
-      //       {
-      //         label: 'GitHub',
-      //         href: 'https://github.com/siemienik',
-      //       },
-      //     ],
-      //   },
-      // ],
+      links: [
+        {
+          title: 'Docs',
+          items: [
+            { label: 'XToolset', to: '/docs/xtoolset/' },
+            { label: '➔ XLSX-Renderer', to: '/docs/xlsx-renderer' },
+            { label: '➔ XLSX-Import', to: '/docs/xlsx-import' },
+            { label: 'ExcelJS', to: '/docs/exceljs/intro' },
+          ],
+        },
+        {
+          title: 'Details',
+          items: [
+            { label: 'Contact', to: '/contact' },
+            { label: 'Gitter', href: 'https://gitter.im/siemienik/community' },
+            { label: 'LinkedIn', href: 'https://gitter.im/siemienik/community' },
+            { label: 'GitHub', href: 'https://github.com/siemienik' },
+          ],
+        },
+        {
+          title: 'Useful links',
+          items: [
+            { label: 'Sponsor me', href: 'https://github.com/sponsors/siemienik' },
+            { label: 'Github XToolset', href: 'https://github.com/siemienik/xtoolset' },
+            { label: 'GitHub Exceljs', href: 'https://github.com/exceljs/exceljs' },
+          ],
+        },
+      ],
       copyright: `Copyright © ${new Date().getFullYear()} Siemienik Paweł.`,
     },
   },
@@ -78,7 +69,7 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
-          routeBasePath:'/',
+          routeBasePath: '/',
           editUrl: 'https://github.com/siemienik/siemienik.com/edit/master/',
         },
         theme: {

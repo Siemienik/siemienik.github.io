@@ -4,7 +4,7 @@ id: homepage
 sidebar_label: Introduction
 ---
 
-# ExcelJS Comunnity Documentation
+# ExcelJS Community Documentation
 
 
 todo:
