@@ -40,7 +40,6 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 * [ ] Plugin Siemienik.com domain
 * [ ] Add "contact" subpage
 * [ ] Add information how to sponsor my OSS activities
-* [ ] Add xtoolset documentation
 * [ ] Write and add exceljs documentation
 * [ ] Add tags descriptions -SEO
 * [ ] Add about me page
