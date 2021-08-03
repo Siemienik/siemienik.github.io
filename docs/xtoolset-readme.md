@@ -1,7 +1,7 @@
 ---
-slug: ./
-id: homepage
-sidebar_label: Home
+slug: ./xtoolset
+id: xtoolset
+sidebar_label: XToolset
 sidebar_position: 0
 ---
 

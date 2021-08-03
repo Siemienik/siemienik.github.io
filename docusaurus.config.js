@@ -3,7 +3,7 @@ module.exports = {
   title: 'Siemienik Paweł',
   tagline: 'The Open Source Software Enthusiast',
   url: 'https://siemienik.com',
-  baseUrl: '/siemienik.com/', //todo remove when gh pages configured
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'favicons/favicon.ico',
@@ -17,8 +17,9 @@ module.exports = {
         src: 'img/SIEMIENIK-sygnet-kwadrat-brown-small.png'
       },
       items: [
-        {to: '/', label: 'Blog', position: 'left', activeBasePath: 'blog/'},
+        // {to: '/', label: 'Blog', position: 'left', activeBasePath: 'blog/'},
         // {to: '/contact', label: 'Contact', position: 'left', activeBaseRegex: 'contact$'},
+        // {to: '/tags/portfolio', label: 'Portfolio', position: 'left', activeBaseRegex: '(tags/)?portfolio'},
         {to: '/docs/',  label: 'Documentation', activeBasePath: 'docs/'},
         // {to: '/docs/', position: 'right', label: 'Documentation', activeBasePath: 'docs/', items:[
         //   {to: '/docs/xtoolset/', position: 'right', label: 'XToolset', activeBaseRegex: 'docs/[^e].*/'},
@@ -67,7 +68,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/siemienik/siemienik.com/edit/master/',
         },
-        blog: {
+        blog: false && {
           showReadingTime: true,
           routeBasePath: '/',
           editUrl: 'https://github.com/siemienik/siemienik.com/edit/master/',
