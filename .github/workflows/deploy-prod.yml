@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f #v2
-      - uses: actions/setup-node@e434342e4e324065b1b19b24586c710a1a68d2d7 #v2
+      - uses: actions/setup-node@25316bbc1f10ac9d8798711f44914b1cf3c4e954 #v2
         with:
           node-version: "12"
       - name: Build
