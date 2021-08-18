@@ -7,6 +7,8 @@ sidebar_position: 0
 
 # XToolset
 
+_Github: https://github.com/siemienik/xtoolset_
+
 Fancy TypeScript / JavaScript spreadsheet package for browsers, and node, and command line tools.
 
 Helps handle spreadsheet files `xlsx` in smart way by using high level api.

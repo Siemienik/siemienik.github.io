@@ -8,6 +8,8 @@ sidebar_position: 1.1
 
 [![NPM](https://img.shields.io/npm/l/sxi)![npm](https://img.shields.io/npm/v/sxi)](https://www.npmjs.com/package/sxi) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-import-cli)](https://github.com/Siemienik/xtoolset/actions)
 
+_Github: [https://github.com/Siemienik/XToolset/.../xlsx-import-cli](https://github.com/Siemienik/XToolset/tree/master/packages/xlsx-import-cli)_
+
 Command line interface for [xlsx-import](./xlsx-import-readme.md). Configurable import spreadsheet files with TS types support.
 
 Part of **XToolset** - collection of tools makes handling spreadsheet handy, easy with great developer experience.

@@ -9,6 +9,8 @@ sidebar_position: 2.1
 
 [![NPM](https://img.shields.io/npm/l/sxr)![npm](https://img.shields.io/npm/v/sxr)](https://www.npmjs.com/package/sxr) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-renderer-cli)](https://github.com/Siemienik/xtoolset/actions)
 
+_Github: [https://github.com/Siemienik/XToolset/.../xlsx-renderer-cli](https://github.com/Siemienik/XToolset/tree/master/packages/xlsx-renderer-cli)_
+
 Command line interface for [xlsx-renderer](./xlsx-renderer-readme.md). Generates spreadsheet files based on the template with view model.
 
 Part of **XToolset** - collection of tools makes handling spreadsheet handy, easy with great developer experience.
