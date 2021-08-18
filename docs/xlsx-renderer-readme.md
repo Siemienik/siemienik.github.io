@@ -9,6 +9,8 @@ sidebar_position: 2
 
 [![NPM](https://img.shields.io/npm/l/xlsx-renderer)![npm](https://img.shields.io/npm/v/xlsx-renderer)](https://www.npmjs.com/package/xlsx-renderer) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-renderer)](https://github.com/Siemienik/xtoolset/actions) [![codecov](https://codecov.io/gh/Siemienik/xtoolset/branch/master/graph/badge.svg?flag=xlsx-renderer)](https://codecov.io/gh/Siemienik/xtoolset/tree/master/packages/xlsx-renderer)
 
+_Github: [https://github.com/Siemienik/XToolset/.../xlsx-renderer](https://github.com/Siemienik/XToolset/tree/master/packages/xlsx-renderer)_
+
 Generate spreadsheet files in smart way based on a template **XLSX** file created in your favourite spreadsheet application.
 
 Part of **XToolset** - collection of tools makes handling spreadsheet handy, easy with great developer experience.
