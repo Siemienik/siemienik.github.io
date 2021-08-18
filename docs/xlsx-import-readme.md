@@ -9,6 +9,8 @@ sidebar_position: 1
 
 [![NPM](https://img.shields.io/npm/l/xlsx-import)![npm](https://img.shields.io/npm/v/xlsx-import)](https://www.npmjs.com/package/xlsx-import) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-import)](https://github.com/Siemienik/xtoolset/actions) [![codecov](https://codecov.io/gh/Siemienik/xtoolset/branch/master/graph/badge.svg?flag=xlsx-import)](https://codecov.io/gh/Siemienik/xtoolset/tree/master/packages/xlsx-import)
 
+_Github: [https://github.com/Siemienik/XToolset/.../xlsx-import](https://github.com/Siemienik/XToolset/tree/master/packages/xlsx-import)_
+
 Importing data from xlsx as simple as possible and map into configured data model with fully TypeScript typing support.
 
 Part of **XToolset** - collection of tools makes handling spreadsheet handy, easy with great developer experience.
