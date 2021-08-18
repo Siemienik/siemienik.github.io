@@ -11,7 +11,7 @@ module.exports = {
   projectName: 'siemienik.com',
   themeConfig: {
     navbar: {
-      title: 'Siemienik Consulting Services',
+      title: 'Siemienik',
       logo: {
         alt: 'Siemienik',
         src: 'img/SIEMIENIK-sygnet-kwadrat-brown-small.png'
