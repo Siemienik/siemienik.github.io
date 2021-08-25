@@ -10,6 +10,10 @@ module.exports = {
   organizationName: 'siemienik',
   projectName: 'siemienik.com',
   themeConfig: {
+    algolia: {
+      apiKey: 'e552182743ab25e516c07c2754ce9c90',
+      indexName: 'siemienik',
+    },
     navbar: {
       title: 'Siemienik',
       logo: {
