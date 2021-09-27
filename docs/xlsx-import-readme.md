@@ -78,43 +78,43 @@ interface Person {
 Mapper is a function that transforms values. You can use [built-in mappers](#mappers) or write your own.
 
 ```ts
-    import { upperCaseMapper, isEmpty, isFilled, isValue } from 'xlsx-import/lib/mappers';
+import { upperCaseMapper, isEmpty, isFilled, isValue } from 'xlsx-import/lib/mappers';
 
-    // isValue: assert / check the value
-    const isMale = isValue(['male', 'm']);
-    const isFemale = isValue(['female', 'f']);
+// isValue: assert / check the value
+const isMale = isValue(['male', 'm']);
+const isFemale = isValue(['female', 'f']);
 
-    const config = {
-        // ...
-        owner: {
-            worksheet: 'About list owner',
-            type: 'object',
-            fields:[
-                {row: 2, col: 1, key: 'FirstName'},
-                {row: 2, col: 2, key: 'SecondName', mapper: upperCaseMapper},
-                {row: 3, col: 1, key: 'Age', mapper: Number.parseInt},
-                // three fields based on one cell but with different mapper
-                {row: 2, col: 3, key: 'EmployedIn'},
-                {row: 2, col: 3, key: 'IsUnemployed', mapper: isEmpty},
-                {row: 2, col: 3, key: 'IsEmployed', mapper: isFilled},
-                // custom mappers defined above
-                {row: 2, col: 3, key: 'isMale', mapper: isMale},
-                {row: 2, col: 3, key: 'isFemale', mapper: isFemale},
-            ]
-        },
-    };
+const config = {
+    // ...
+    owner: {
+        worksheet: 'About list owner',
+        type: 'object',
+        fields:[
+            {row: 2, col: 1, key: 'FirstName'},
+            {row: 2, col: 2, key: 'SecondName', mapper: upperCaseMapper},
+            {row: 3, col: 1, key: 'Age', mapper: Number.parseInt},
+            // three fields based on one cell but with different mapper
+            {row: 2, col: 3, key: 'EmployedIn'},
+            {row: 2, col: 3, key: 'IsUnemployed', mapper: isEmpty},
+            {row: 2, col: 3, key: 'IsEmployed', mapper: isFilled},
+            // custom mappers defined above
+            {row: 2, col: 3, key: 'isMale', mapper: isMale},
+            {row: 2, col: 3, key: 'isFemale', mapper: isFemale},
+        ]
+    },
+};
 ```
 
 ### 5. Import data
 
 ```ts
-    const factory = new ImporterFactory();
+const factory = new ImporterFactory();
 
-    //...
+//...
 
-    const importer = await factory.from(filePath);
-    const books = importer.getAllItems<Book>(config.books); // it returns `Book[]`
-    const author = importer.getAllItems<Person>(config.owner);
+const importer = await factory.from(filePath);
+const books = importer.getAllItems<Book>(config.books); // it returns `Book[]`
+const author = importer.getAllItems<Person>(config.owner);
 
 ```
 
@@ -150,9 +150,9 @@ Xlsx supports two modes of importing files: [Vertical List](#type-listvertical) 
 
 ```js
 const cfg = {
-     // Indicates which worksheet should be used for data source .
-     // For CSV typically `sheet 1` works perfectly.
-     // string, required.
+    // Indicates which worksheet should be used for data source .
+    // For CSV typically `sheet 1` works perfectly.
+    // string, required.
     worksheet:'sheet 1',
 
     // Indicates importing strategy, described below
@@ -251,10 +251,11 @@ const cfg = {
 |integerMapper|Transforms string into integer
 |booleanMapper|Transforms string into boolean
 |numberMapper|Transforms string into number
+|dateMapper|Transforms date string into `Date` object
 |isValue|Examines if value is included in accepted values provided
 |isEmpty|Examines if input is empty
 |isFilled|Examines if input is not empty
-|[splitMapper](https://github.com/Siemienik/XToolSet/tree/master/packages/xlsx-import#splitmapper)|Transforms string into array of items
+|[splitMapper](#splitmapper)|Transforms string into array of items
 
 ### `splitMapper`
 
