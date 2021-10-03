@@ -254,7 +254,7 @@ const cfg = {
 |isValue|Examines if value is included in accepted values provided
 |isEmpty|Examines if input is empty
 |isFilled|Examines if input is not empty
-|[splitMapper](https://github.com/Siemienik/XToolSet/tree/master/packages/xlsx-import#splitmapper)|Transforms string into array of items
+|[splitMapper](#splitmapper)|Transforms string into array of items
 
 ### `splitMapper`
 

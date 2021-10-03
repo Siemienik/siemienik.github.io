@@ -1,71 +1,12 @@
 ---
-slug: ./xlsx-renderer
+slug: ./readme
 id: xlsx-renderer
-sidebar_label: XLSX-Renderer
-sidebar_position: 2
+sidebar_label: Legacy readme
 ---
 
-# XLSX Renderer
+# Documentation
 
-[![NPM](https://img.shields.io/npm/l/xlsx-renderer)![npm](https://img.shields.io/npm/v/xlsx-renderer)](https://www.npmjs.com/package/xlsx-renderer) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-renderer)](https://github.com/Siemienik/xtoolset/actions) [![codecov](https://codecov.io/gh/Siemienik/xtoolset/branch/master/graph/badge.svg?flag=xlsx-renderer)](https://codecov.io/gh/Siemienik/xtoolset/tree/master/packages/xlsx-renderer)
-
-_Github: [https://github.com/Siemienik/XToolset/.../xlsx-renderer](https://github.com/Siemienik/XToolset/tree/master/packages/xlsx-renderer)_
-
-Generate spreadsheet files in smart way based on a template **XLSX** file created in your favourite spreadsheet application.
-
-Part of **XToolset** - collection of tools makes handling spreadsheet handy, easy with great developer experience.
-
-## Use case
-
-1. **Are you feeling nervous when the business wants to change the invoice layout?**
-   Now you may say "bye-bye" to changing thousands of line codes. It is enough to update `invoice-template.xlsx` and use with this tool.
-
-2. **Do you need generate complex report?**
-   Imagine that it will not be terrible too much. Commonly generating files requires to write a lot of lines of code (for instance get cell A1, set font bold, border solid, test etc.). With this tool you may use Microsoft Excel to fancy create `complex-report.xlsx` and mix it with your data by using xlsx-renderer.
-
-3. **Did the boss said that it is only a little change in `sales-report.xlsx`, but it isn't?**
-   With `xlsx-renderer` you mustn't change any line of code, just update your `template.xlsx`
-
-## How it works
-
-It consumes a template which is common Excel file, then add yours data called view model. Blend it and done, as result you'll get result file.
-![How it works](./xlsx-renderer/how-it-works-explanation.png)
-
-## Getting Started
-
-### 1. Install package
-
-```shell script
-npm i xlsx-renderer --save
-```
-
-### 2. Write code
-
-```ts
-import {Renderer} from 'xlsx-renderer';
-// ...
-const renderer = new Renderer();
-// ...
-const viewModel = { awesome:"Oh yeah!", items:[/*...*/] };
-
-// for node:
-const result = await renderer.renderFromFile('./report-template.xlsx', viewModel);
-await result.xlsx.writeFile('./my-awesome-report.xlsx');
-
-// for browsers:
-const result2 = await renderer.renderFromArrayBuffer(templateArrayBuffer, viewModel);
-await result2.xlsx.writeBuffer().then(/* use saveAs() to download on a browser */);
-```
-
-For more explanations for browser usages go into [#93 comment](https://github.com/Siemienik/XToolSet/issues/93#issuecomment-732309383)
-
-### 3. Consider using CLI
-
-It is possible to use the command line interface [read more about xlsx-renderer-cli](./xlsx-renderer-cli-readme.md)
-
-## Documentation
-
-### Cells
+## Cells
 
 | Category | Name | Matching Order | Matching Rule | Description | More info |
 |----------|-----:|-------|--------|-------------|:---------|
@@ -96,7 +37,7 @@ Actually, these examples are integration test fixtures. Each contains:
 * `expected.xlsx` with the expected result.
 * **After tests being run:** `test-output.xlsx` with fresh generated file.
 
-_These examples might be runned by using the command line tool, [read more](./xlsx-renderer-cli-readme.md)._
+_These examples might be runned by using the command line tool, [read more](./990-xlsx-renderer-cli-readme.md)._
 
 | Id | Example | Explanation |
 |----|---------|-------------|
@@ -119,45 +60,3 @@ _These examples might be runned by using the command line tool, [read more](./xl
 | 16 | [ForEach-merged-pyramid](https://github.com/Siemienik/XToolset/blob/master/packages/xlsx-renderer/tests/integration/data/Renderer016-ForEach-merged-pyramid) | Checks merged cells behaviour |
 | 17 | [TemplateFormulaCell](https://github.com/Siemienik/XToolset/blob/master/packages/xlsx-renderer/tests/integration/data/Renderer017-TemplateFormulaCell) | Dynamic formula creation |
 | 18 | [TemplateStringCell](https://github.com/Siemienik/XToolset/blob/master/packages/xlsx-renderer/tests/integration/data/Renderer018-TemplateStringCell) | Dynamic content creation following by custom template string (`Hello ${name}`). |
-
-## Support
-
-If any help needed, just feel free to create an issue. We will be really thankful for added links into stackoverflow topics if exists.
-
-We are ready to provide paid support, in order that please contact me: [hi@siemienik.pl](mailto://hi@siemienik.pl) or [support@siemienik.pl](mailto://support@siemienik.pl).
-
-### ✅ NodeJS Support
-
-|  10 |  11 |  12 |  13 |  14 | 15 |
-|-----|-----|-----|-----|-----|----|
-| 🟢 |  🟢 | 🟢 |  🟢 | 🟢 | 🟢 |
-
-If Node v8 & v9 needed, please contact us [support@siemienik.pl](mailto://support@siemienik.pl).
-
-### ✅ Browser Support
-
-XLSX Renderer may run on browser side. [**Read more about browser support**](https://github.com/Siemienik/XToolset/issues/93#issuecomment-797835786).
-
-```js
-import { Renderer } from "xlsx-renderer";
-import { saveAs } from "file-saver";
-
-// ... define viewModel:
-const viewModel = {};
-
-//... generate a report:
-
-// 1. Download a template.
-fetch("./template.xlsx")
-  // 2. Get template as ArrayBuffer.
-  .then((response) => response.arrayBuffer())
-  // 3. Fill the template with data (generate a report).
-  .then((buffer) => new Renderer().renderFromArrayBuffer(buffer, viewModel))
-  // 4. Get a report as buffer.
-  .then((report) => report.xlsx.writeBuffer())
-  // 5. Use `saveAs` to download on browser site.
-  .then((buffer) => saveAs(new Blob([buffer]), `${Date.now()}_report.xlsx`))
-  // Handle errors.
-  .catch((err) => console.log("Error writing excel export", err));
-```
-

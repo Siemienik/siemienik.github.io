@@ -58,7 +58,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Siemienik Paweł.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Siemienik Paweł. <br/> Content licensed on <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.`,
     },
   },
   presets: [
