@@ -39,15 +39,17 @@ It consumes a template which is common Excel file, then add yours data called vi
 
 This website constrains four main parts:
 
-1. [Installation](./020-installation.md),
-2. [Getting Started](./030-getting-started.md),
-3. [Documentation](./040-documentation.md).
+1. [Installation](./020-installation.md)
+2. [Getting Started](./030-getting-started.md)
+3. [Cells commands](./040-cells.md)
+4. [Examples](./050-examples.md)
+5. [Command line](./990-xlsx-renderer-cli-readme.md)
 
 ## Worth to know
 
 * XLSX-Renderer is member of [XToolset](../xtoolset-readme.md),
 * There is a possibility to import data from XLSX (also from generated) files, read more about [XLSX-Import](../xlsx-import-readme.md),
-* GitHub repository.
+* GitHub repository: https://github.com/Siemienik/XToolSet.
 
 ### License
 
@@ -74,5 +76,3 @@ If Node v8 & v9 needed, please contact us [support@siemienik.pl](mailto://suppor
 #### ✅ Browser Support
 
 XLSX Renderer may run on browser side. [**Read more about browser support**](https://github.com/Siemienik/XToolset/issues/93#issuecomment-797835786).
-
-

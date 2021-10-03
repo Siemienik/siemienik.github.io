@@ -9,7 +9,7 @@ sidebar_position: 0
 
 Currently:
 * [XToolset](./xtoolset-readme.md)
-    * [XLSX-Renderer](./xlsx-renderer/999-readme.md) (with [CLI](./xlsx-renderer/990-xlsx-renderer-cli-readme.md))
+    * [XLSX-Renderer](./xlsx-renderer/010-xlsx-renderer-homepage.md) (with [CLI](./xlsx-renderer/990-xlsx-renderer-cli-readme.md))
     * [XLSX-Import](./xlsx-import-readme.md)  (with [CLI](./xlsx-import-cli-readme.md))
 
 import {Redirect} from '@docusaurus/router';

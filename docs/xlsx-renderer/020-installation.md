@@ -21,3 +21,7 @@ npm install --save xlsx-renderer
 ```bash
 yarn add xlsx-renderer
 ```
+
+## Needs another way for installation
+
+We might prepare and add any another way for distributing of XToolset. Tell us what you need via GH Discussion or email, see [contact details](./010-xlsx-renderer-homepage.md#support). 

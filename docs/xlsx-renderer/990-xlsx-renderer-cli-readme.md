@@ -10,7 +10,7 @@ sidebar_label: Command Line (CLI)
 
 _Github: [https://github.com/Siemienik/XToolset/.../xlsx-renderer-cli](https://github.com/Siemienik/XToolset/tree/master/packages/xlsx-renderer-cli)_
 
-Command line interface for [xlsx-renderer](./xlsx-renderer/999-readme.md). Generates spreadsheet files based on the template with view model.
+Command line interface for [xlsx-renderer](./010-xlsx-renderer-homepage.md). Generates spreadsheet files based on the template with view model.
 
 Part of **XToolset** - collection of tools makes handling spreadsheet handy, easy with great developer experience.
 
@@ -102,7 +102,7 @@ Library allowing also save output into file by using option `-o --output <filena
 
 The template structure inherit from `xlsx-renderer`. Please use link below for more information:
 
-[**XLSX Renderer Documentation**](./xlsx-renderer/999-readme.md#how-it-works)
+[**XLSX Renderer Documentation**](./010-xlsx-renderer-homepage.md)
 
 ## Support
 

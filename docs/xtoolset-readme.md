@@ -28,7 +28,7 @@ const books: Array<Book> = xlsx.getAllItems<Book>(config.books);
 
 [Read more :arrow_right:](./xlsx-import-readme.md)
 
-### [The `xlsx-renderer`](./xlsx-renderer/999-readme.md)
+### [The `xlsx-renderer`](./xlsx-renderer/010-xlsx-renderer-homepage.md)
 
 [![NPM](https://img.shields.io/npm/l/xlsx-renderer)![npm](https://img.shields.io/npm/v/xlsx-renderer)](https://www.npmjs.com/package/xlsx-renderer) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-renderer)](https://github.com/Siemienik/xtoolset/actions) [![codecov](https://codecov.io/gh/Siemienik/xtoolset/branch/master/graph/badge.svg?flag=xlsx-renderer)](https://codecov.io/gh/Siemienik/xtoolset/tree/master/packages/xlsx-renderer)
 
@@ -40,7 +40,7 @@ await renderer.renderFromFile('./invoice-template.xlsx', invoiceData)
     .then(wb => wb.xlsx.writeFile('./invoice.xlsx'));
 ```
 
-[Read more :arrow_right:](./xlsx-renderer/999-readme.md)
+[Read more :arrow_right:](./xlsx-renderer/010-xlsx-renderer-homepage.md)
 
 ## Command Line Tools
 
