@@ -18,7 +18,7 @@ module.exports = {
       },
       items: [
         // {to: '/', label: 'Blog', position: 'left', activeBasePath: 'blog/'},
-        // {to: '/contact', label: 'Contact', position: 'left', activeBaseRegex: 'contact$'},
+        {to: '/pawel', label: 'About me', position: 'left', activeBaseRegex: '^/pawel&'},
         // {to: '/tags/portfolio', label: 'Portfolio', position: 'left', activeBaseRegex: '(tags/)?portfolio'},
         {to: '/docs/',  label: 'Documentation', activeBasePath: 'docs/'},
         // {to: '/docs/', position: 'right', label: 'Documentation', activeBasePath: 'docs/', items:[
@@ -34,10 +34,10 @@ module.exports = {
         {
           title: 'Docs',
           items: [
-            // { label: 'XToolset', to: '/docs/xtoolset/' },
+            { label: 'XToolset', to: '/docs/xtoolset/' },
             { label: '➔ XLSX-Renderer', to: '/docs/xlsx-renderer' },
             { label: '➔ XLSX-Import', to: '/docs/xlsx-import' },
-            // { label: 'ExcelJS', to: '/docs/exceljs/intro' },
+            { label: 'ExcelJS', href: 'https://github.com/exceljs/exceljs#exceljs' },
           ],
         },
         {
@@ -52,6 +52,7 @@ module.exports = {
         {
           title: 'Useful links',
           items: [
+            { label: 'About me', to: '/pawel' },
             { label: 'Sponsor me', href: 'https://github.com/sponsors/siemienik' },
             { label: 'Github XToolset', href: 'https://github.com/siemienik/xtoolset' },
             { label: 'GitHub Exceljs', href: 'https://github.com/exceljs/exceljs' },
