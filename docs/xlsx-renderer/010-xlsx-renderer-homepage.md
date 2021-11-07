@@ -42,7 +42,7 @@ Chapters included in this section:
 2. [Getting Started](./030-getting-started.md)
 3. [Cells Explantations](./040-cells.md)
 4. [Examples](./050-examples.md)
-5. [Command line tool](./990-xlsx-renderer-cli-readme.md)
+5. [Command line tool](./990-cli.md)
 
 ## Worth to know
 

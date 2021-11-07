@@ -13,7 +13,7 @@ Actually, these examples are integration test fixtures. Each contains:
 * `expected.xlsx` with the expected result.
 * **After tests being run:** `test-output.xlsx` with fresh generated file.
 
-_These examples are able to run by using the command line tool, [read more](./990-xlsx-renderer-cli-readme.md)._
+_These examples are able to run by using the command line tool, [read more](./990-cli.md)._
 
 | Id | Example | Explanation |
 |----|---------|-------------|

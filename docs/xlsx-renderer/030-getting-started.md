@@ -73,4 +73,4 @@ I recommend to study [examples](./050-examples.md) and deeply analyze the [Cells
 * [Examples](./050-examples.md) - list of set of template, viewModel and expected results used for testing purposes.
 * [Discussions](https://github.com/Siemienik/XToolset/discussions) - There are some topics, where people ask how to do some goals.
 * [Gitter](https://gitter.im/Siemienik/community) - community live chat.
-* [CLI](./990-xlsx-renderer-cli-readme.md) - Command line interface, handy for creating and testing templates.
+* [CLI](./990-cli.md) - Command line interface, handy for creating and testing templates.
