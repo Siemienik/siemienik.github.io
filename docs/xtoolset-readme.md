@@ -56,7 +56,7 @@ sxi books.cfg.js my-awesome-books.xlsx > books-list.json
 
 [Read more :arrow_right:](./xlsx-import-cli-readme.md)
 
-### [The `xlsx-renderer-cli` (package: `sxr`)](./xlsx-renderer/990-xlsx-renderer-cli-readme.md))
+### [The `xlsx-renderer-cli` (package: `sxr`)](./xlsx-renderer/990-cli.md))
 
 [![NPM](https://img.shields.io/npm/l/sxr)](https://www.npmjs.com/package/sxr) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-renderer-cli)](https://github.com/Siemienik/xtoolset/actions)
 
@@ -66,7 +66,7 @@ Generate spreadsheets files following by the `template` with `view model` from c
 sxr --model invoice-data.json invoice-template.xlsx > invoice.xlsx
 ```
 
-[Read more :arrow_right:](./xlsx-renderer/990-xlsx-renderer-cli-readme.md))
+[Read more :arrow_right:](./xlsx-renderer/990-cli.md))
 
 ## Examples
 
