@@ -108,4 +108,4 @@ The template structure inherit from `xlsx-renderer`. Please use link below for m
 
 If any help needed, just feel free to create an issue. We will be really thankful for added links into stackoverflow topics if exists.
 
-We are ready to provide paid support, in order that please contact me: [hi@siemienik.pl](mailto://hi@siemienik.pl) or [support@siemienik.pl](mailto://support@siemienik.pl).
+We are ready to provide paid support, in order that please contact me: [hi@siemienik.com](mailto://hi@siemienik.com) or [support@siemienik.com](mailto://support@siemienik.com).

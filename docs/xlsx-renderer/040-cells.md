@@ -4,6 +4,8 @@ id: cells
 sidebar_label: Cells
 ---
 
+<!-- TODO make as paragraphs -->
+
 # Cells
 
 | Category | Name | Matching Order | Matching Rule | Description | More info |
