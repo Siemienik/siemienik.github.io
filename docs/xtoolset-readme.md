@@ -28,7 +28,7 @@ const books: Array<Book> = xlsx.getAllItems<Book>(config.books);
 
 [Read more :arrow_right:](./xlsx-import-readme.md)
 
-### [The `xlsx-renderer`](./xlsx-renderer-readme.md)
+### [The `xlsx-renderer`](./xlsx-renderer/010-xlsx-renderer-homepage.md)
 
 [![NPM](https://img.shields.io/npm/l/xlsx-renderer)![npm](https://img.shields.io/npm/v/xlsx-renderer)](https://www.npmjs.com/package/xlsx-renderer) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-renderer)](https://github.com/Siemienik/xtoolset/actions) [![codecov](https://codecov.io/gh/Siemienik/xtoolset/branch/master/graph/badge.svg?flag=xlsx-renderer)](https://codecov.io/gh/Siemienik/xtoolset/tree/master/packages/xlsx-renderer)
 
@@ -40,7 +40,7 @@ await renderer.renderFromFile('./invoice-template.xlsx', invoiceData)
     .then(wb => wb.xlsx.writeFile('./invoice.xlsx'));
 ```
 
-[Read more :arrow_right:](./xlsx-renderer-readme.md)
+[Read more :arrow_right:](./xlsx-renderer/010-xlsx-renderer-homepage.md)
 
 ## Command Line Tools
 
@@ -56,7 +56,7 @@ sxi books.cfg.js my-awesome-books.xlsx > books-list.json
 
 [Read more :arrow_right:](./xlsx-import-cli-readme.md)
 
-### [The `xlsx-renderer-cli` (package: `sxr`)](./xlsx-renderer-cli-readme.md)
+### [The `xlsx-renderer-cli` (package: `sxr`)](./xlsx-renderer/990-xlsx-renderer-cli-readme.md))
 
 [![NPM](https://img.shields.io/npm/l/sxr)](https://www.npmjs.com/package/sxr) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-renderer-cli)](https://github.com/Siemienik/xtoolset/actions)
 
@@ -66,7 +66,7 @@ Generate spreadsheets files following by the `template` with `view model` from c
 sxr --model invoice-data.json invoice-template.xlsx > invoice.xlsx
 ```
 
-[Read more :arrow_right:](./xlsx-renderer-cli-readme.md)
+[Read more :arrow_right:](./xlsx-renderer/990-xlsx-renderer-cli-readme.md))
 
 ## Examples
 

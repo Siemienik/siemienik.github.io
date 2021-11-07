@@ -1,8 +1,7 @@
 ---
-slug: ./xlsx-renderer/cli
+slug: ./cli
 id: xlsx-renderer-cli
-sidebar_label: XLSX-Renderer (CLI)
-sidebar_position: 2.1
+sidebar_label: Command Line (CLI)
 ---
 
 # XLSX Renderer - Command Line Interface
@@ -11,7 +10,7 @@ sidebar_position: 2.1
 
 _Github: [https://github.com/Siemienik/XToolset/.../xlsx-renderer-cli](https://github.com/Siemienik/XToolset/tree/master/packages/xlsx-renderer-cli)_
 
-Command line interface for [xlsx-renderer](./xlsx-renderer-readme.md). Generates spreadsheet files based on the template with view model.
+Command line interface for [xlsx-renderer](./010-xlsx-renderer-homepage.md). Generates spreadsheet files based on the template with view model.
 
 Part of **XToolset** - collection of tools makes handling spreadsheet handy, easy with great developer experience.
 
@@ -103,10 +102,10 @@ Library allowing also save output into file by using option `-o --output <filena
 
 The template structure inherit from `xlsx-renderer`. Please use link below for more information:
 
-[**XLSX Renderer Documentation**](./xlsx-renderer-readme.md#how-it-works)
+[**XLSX Renderer Documentation**](./010-xlsx-renderer-homepage.md)
 
 ## Support
 
 If any help needed, just feel free to create an issue. We will be really thankful for added links into stackoverflow topics if exists.
 
-We are ready to provide paid support, in order that please contact me: [hi@siemienik.pl](mailto://hi@siemienik.pl) or [support@siemienik.pl](mailto://support@siemienik.pl).
+We are ready to provide paid support, in order that please contact me: [hi@siemienik.com](mailto://hi@siemienik.com) or [support@siemienik.com](mailto://support@siemienik.com).
