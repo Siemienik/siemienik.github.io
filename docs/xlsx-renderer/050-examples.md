@@ -34,7 +34,7 @@ _These examples are able to run by using the command line tool, [read more](./99
 | 14 | [ForEach-merged](https://github.com/Siemienik/XToolset/blob/master/packages/xlsx-renderer/tests/integration/data/Renderer014-ForEach-merged) | Checks merged cells behaviour |
 | 15 | [ForEach-merged-two-tables](https://github.com/Siemienik/XToolset/blob/master/packages/xlsx-renderer/tests/integration/data/Renderer015-ForEach-merged-two-tables) | Checks merged cells behaviour |
 | 16 | [ForEach-merged-pyramid](https://github.com/Siemienik/XToolset/blob/master/packages/xlsx-renderer/tests/integration/data/Renderer016-ForEach-merged-pyramid) | Checks merged cells behaviour |
-| 17 | [TemplateFormulaCell](https://github.com/Siemienik/XToolset/blob/master/packages/xlsx-renderer/tests/integration/data/Renderer017-TemplateFormulaCell) | Dynamic formula creation |
-| 18 | [TemplateStringCell](https://github.com/Siemienik/XToolset/blob/master/packages/xlsx-renderer/tests/integration/data/Renderer018-TemplateStringCell) | Dynamic content creation following by custom template string (`Hello ${name}`). |
+| 17 | [TemplateFormula](https://github.com/Siemienik/XToolset/blob/master/packages/xlsx-renderer/tests/integration/data/Renderer017-TemplateFormula) | Dynamic formula creation |
+| 18 | [TemplateString](https://github.com/Siemienik/XToolset/blob/master/packages/xlsx-renderer/tests/integration/data/Renderer018-TemplateString) | Dynamic content creation following by custom template string (`Hello ${name}`). |
 
 <!-- TODO add some codesandbox/jsfiddle examples -->

@@ -72,12 +72,12 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/siemienik/siemienik.gitlab.io/edit/master/',
+          editUrl: 'https://github.com/siemienik/siemienik.github.io/edit/master/',
         },
         blog: false && {
           showReadingTime: true,
           routeBasePath: '/',
-          editUrl: 'https://github.com/siemienik/siemienik.gitlab.io/edit/master/',
+          editUrl: 'https://github.com/siemienik/siemienik.github.io/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
