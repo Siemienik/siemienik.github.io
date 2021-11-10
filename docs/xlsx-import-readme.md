@@ -114,8 +114,8 @@ const factory = new ImporterFactory();
 
 const importer = await factory.from(filePath);
 const books = importer.getAllItems<Book[]>(config.books); // it returns `Book[]`
-const book = importer.getFirstItem<Book>(config.books); // it returns first Book item
-const author = importer.getAllItems<Person>(config.owner);
+const book = importer.getFirstItem<Book>(config.books); // it returns first `Book` item
+const author = importer.getFirstItem<Person>(config.owner); // it returns `Person`
 
 ```
 
