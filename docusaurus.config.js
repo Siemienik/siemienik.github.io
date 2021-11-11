@@ -21,7 +21,7 @@ module.exports = {
         src: 'img/SIEMIENIK-sygnet-kwadrat-brown-small.png'
       },
       items: [
-        // {to: '/', label: 'Blog', position: 'left', activeBasePath: 'blog/'},
+        {to: '/blog/', label: 'Blog', position: 'left', activeBasePath: 'blog/'},
         {to: '/pawel', label: 'About me', position: 'left', activeBaseRegex: '^/pawel&'},
         // {to: '/tags/portfolio', label: 'Portfolio', position: 'left', activeBaseRegex: '(tags/)?portfolio'},
         {to: '/docs/',  label: 'Documentation', activeBasePath: 'docs/'},
@@ -74,9 +74,8 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/siemienik/siemienik.github.io/edit/master/',
         },
-        blog: false && {
+        blog: {
           showReadingTime: true,
-          routeBasePath: '/',
           editUrl: 'https://github.com/siemienik/siemienik.github.io/edit/master/',
         },
         theme: {
