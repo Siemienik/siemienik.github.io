@@ -112,7 +112,12 @@ const factory = new ImporterFactory();
 
 //...
 
+// for filePath: 
 const importer = await factory.from(filePath);
+
+// for buffer:
+// const importer = await factory.fromBuffer(buffer); 
+
 const books = importer.getAllItems<Book[]>(config.books); // it returns `Book[]`
 const book = importer.getFirstItem<Book>(config.books); // it returns first `Book` item
 const author = importer.getFirstItem<Person>(config.owner); // it returns `Person`
