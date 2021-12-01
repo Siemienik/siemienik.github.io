@@ -253,7 +253,7 @@ const cfg = {
 |-----|-----------
 |upperCaseMapper|Transforms string to upper case
 |lowerCaseMapper|Transforms string to lower case
-|jsonMapper|Transforms a json string to a TJsonResponse or to null if parsing was not possible
+|[jsonMapper](#jsonmapper) |Transforms a JSON string to a JSON object or to null if parsing was not possible
 |integerMapper|Transforms string into integer
 |booleanMapper|Transforms string into boolean
 |numberMapper|Transforms string into number
@@ -294,6 +294,31 @@ const result = wordsInSentencesMapper(input);
 // {row: 3, col: 1, key: 'words', mapper: wordsInSentencesMapper},
 
 ```
+
+### `jsonMapper`
+
+JSON Mapper transforming JSON string to a JSON object.
+
+```ts
+// Building a mapper 
+const mapper: JsonMapper = jsonMapper;
+
+// Usage sample:
+const jsonString: string = '{"name":"John Doe"}';
+const result: object = mapper(jsonString); // { name: 'John Doe'}
+
+// JsonMapper returns default value (null) in case it could not parse the input
+const invalidJsonString: string = 'invalid JSON';
+const result: null = mapper(jsonString); // null
+```
+
+The default value is customizable:
+```ts
+const mapper: JsonMapper = jsonMapper.default('My default value');
+const invalidJsonString: string = 'invalid JSON';
+const result: string = mapper(invalidJsonString); // 'My default value'
+```
+
 
 ## Support
 
