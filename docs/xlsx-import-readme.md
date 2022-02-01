@@ -130,23 +130,23 @@ It is possible to use the command line interface [read more about xlsx-import-cl
 
 ## Examples
 
-Example integrations with `xlsx-import` are placed in [samples](https://github.com/Siemienik/XToolSet/tree/master/samples) directory. Currently, available:
+Example integrations with `xlsx-import` are placed in [Siemienik/XToolset-examples](https://github.com/Siemienik/XToolSet-examples/tree/master/) directory. Currently, available:
 
 ### Frontend frameworks
 
-* [Vue sample](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import%2Bvue) - it is a web app created with Vue that displays parsed xlsx file.
-* [React sample](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import%2Breact) - it is a web app created with React that displays parsed xlsx file.
-* [Angular sample](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import%2Bangular) - it is a web app created with Angular that displays parsed xlsx file.
+* [Vue sample](https://github.com/Siemienik/XToolSet-examples/tree/master/xlsx-import%2Bvue) - it is a web app created with Vue that displays parsed xlsx file.
+* [React sample](https://github.com/Siemienik/XToolSet-examples/tree/master/xlsx-import%2Breact) - it is a web app created with React that displays parsed xlsx file.
+* [Angular sample](https://github.com/Siemienik/XToolSet-examples/tree/master/xlsx-import%2Bangular) - it is a web app created with Angular that displays parsed xlsx file.
 
 ### Console / CLI
 
-* [NodeJS sample](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import%2Bnodejs) of **importing an invoice** - it is pure JS example which runs on nodejs.
-* [NodeJS + TS sample](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import%2Bnodejs%2Bts) of **importing an invoice** - it is Typescript example that can be transpiled down to pure JS or run directly with ts-node.
-* [**:star: Command line of xlsx-import**](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import-cli)  examples with prepared scripts based on cli version of xlsx-import.
+* [NodeJS sample](https://github.com/Siemienik/XToolSet-examples/tree/master/xlsx-import%2Bnodejs) of **importing an invoice** - it is pure JS example which runs on nodejs.
+* [NodeJS + TS sample](https://github.com/Siemienik/XToolSet-examples/tree/master/xlsx-import%2Bnodejs%2Bts) of **importing an invoice** - it is Typescript example that can be transpiled down to pure JS or run directly with ts-node.
+* [Command line of xlsx-import](https://github.com/Siemienik/XToolSet-examples/tree/master/xlsx-import-cli)  examples with prepared scripts based on cli version of xlsx-import.
 
 ### Backend
 
-* [ExpressJS sample](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import%2Bexpress) - it is a small service created with ExpressJS can parse xlsx files with concrete structure
+* [ExpressJS sample](https://github.com/Siemienik/XToolSet/tree/master/xlsx-import%2Bexpress) - it is a small service created with ExpressJS can parse xlsx files with concrete structure
 
 ## The Configuration
 
@@ -303,7 +303,7 @@ We are ready to provide paid support, in order that please contact me: [hi@siemi
 
 ### ✅ Browser Support
 
-Browser supporting has been proved for ✅ _Chrome_ and ✅ _Firefox_ in [Angular & Vue & React Samples](#frontend-frameworks) and theirs tests. Feel welcome to run samples by yourselves and check it.
+Browser supporting has been proved for ✅ _Chrome_ and ✅ _Firefox_ in [Angular & Vue & React Examples](#frontend-frameworks) and theirs tests. Feel welcome to run examples by yourselves and check it.
 
 ### ✅ NodeJS Support
 

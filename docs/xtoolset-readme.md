@@ -72,7 +72,7 @@ sxr --model invoice-data.json invoice-template.xlsx > invoice.xlsx
 
 Examples are available in a flat structure, and they are named by using : `[package_name]+[technology]` - for instance `xlsx-import+nodejs+ts`.
 
-[See on GitHub](https://github.com/Siemienik/XToolSet/tree/master/samples)
+[See on GitHub](https://github.com/Siemienik/XToolSet-examples)
 
 
 Additionally, the `xlsx-renderer` has lots of examples used for the integration testing.
