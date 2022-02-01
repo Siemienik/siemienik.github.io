@@ -71,7 +71,7 @@ sxi config.js invoice.xlsx | sxr template.xlsx > refreshed-invoice.xlsx
 
 ```
 
-[Run prepared examples! :rocket:](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import-cli)
+[Run prepared examples! :rocket:](https://github.com/Siemienik/XToolSet-examples/tree/master/xlsx-import-cli)
 
 ## Command body
 
