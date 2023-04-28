@@ -11,6 +11,7 @@ module.exports = {
   projectName: 'siemienik.com',
   themeConfig: {
     algolia: {
+      appId: 'todo',
       apiKey: 'e552182743ab25e516c07c2754ce9c90',
       indexName: 'siemienik',
     },

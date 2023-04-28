@@ -1,15 +1,19 @@
 ---
 title: Version 2.4.4
-author: Paweł Siemienik
+author: Pawel Siemienik
 author_title: Founder
 author_url: /pawel
 author_image_url: https://avatars.githubusercontent.com/u/2893099?v=4
 
 tags:
-  - release
+  - OpenSource
+  - Release
   - xlsx-renderer
   - xlsx-import
-  - xtoolset
+  - XToolset
+  - Spreadsheets
+  - Collaboration
+  - SoftwareDevelopment
 ---
 
 ## What's Changes
