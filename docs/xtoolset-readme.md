@@ -17,7 +17,7 @@ Helps handle spreadsheet files `xlsx` in smart way by using high level api.
 
 ### [The `xlsx-import`](./xlsx-import-readme.md)
 
-[![NPM](https://img.shields.io/npm/l/xlsx-import)![npm](https://img.shields.io/npm/v/xlsx-import)](https://www.npmjs.com/package/xlsx-import) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-import)](https://github.com/Siemienik/xtoolset/actions) [![codecov](https://codecov.io/gh/Siemienik/xtoolset/branch/master/graph/badge.svg?flag=xlsx-import)](https://codecov.io/gh/Siemienik/xtoolset/tree/master/packages/xlsx-import)
+[![NPM](https://img.shields.io/npm/l/xlsx-import)![npm](https://img.shields.io/npm/v/xlsx-import)](https://www.npmjs.com/package/xlsx-import) [![codecov](https://codecov.io/gh/Siemienik/xtoolset/branch/master/graph/badge.svg?flag=xlsx-import)](https://codecov.io/gh/Siemienik/xtoolset/tree/master/packages/xlsx-import)
 
 It allows you to import xlsx spreadsheet file with data into your system with defined TypeScript types.
 
@@ -30,7 +30,7 @@ const books: Array<Book> = xlsx.getAllItems<Book>(config.books);
 
 ### [The `xlsx-renderer`](./xlsx-renderer/010-xlsx-renderer-homepage.md)
 
-[![NPM](https://img.shields.io/npm/l/xlsx-renderer)![npm](https://img.shields.io/npm/v/xlsx-renderer)](https://www.npmjs.com/package/xlsx-renderer) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-renderer)](https://github.com/Siemienik/xtoolset/actions) [![codecov](https://codecov.io/gh/Siemienik/xtoolset/branch/master/graph/badge.svg?flag=xlsx-renderer)](https://codecov.io/gh/Siemienik/xtoolset/tree/master/packages/xlsx-renderer)
+[![NPM](https://img.shields.io/npm/l/xlsx-renderer)![npm](https://img.shields.io/npm/v/xlsx-renderer)](https://www.npmjs.com/package/xlsx-renderer) [![codecov](https://codecov.io/gh/Siemienik/xtoolset/branch/master/graph/badge.svg?flag=xlsx-renderer)](https://codecov.io/gh/Siemienik/xtoolset/tree/master/packages/xlsx-renderer)
 
 Makes generating spreadsheet files as simple as possible - it is enough one line to generate pretty customizable spreadsheet file.
 
@@ -46,7 +46,7 @@ await renderer.renderFromFile('./invoice-template.xlsx', invoiceData)
 
 ### [The `xlsx-import-cli` (package: `sxi`)](./xlsx-import-cli-readme.md)
 
-[![NPM](https://img.shields.io/npm/l/sxi)](https://www.npmjs.com/package/sxr) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-import-cli)](https://github.com/Siemienik/xtoolset/actions)
+[![NPM](https://img.shields.io/npm/l/sxi)](https://www.npmjs.com/package/sxr)
 
 Imports data from spreadsheet file using command line.
 
@@ -58,7 +58,7 @@ sxi books.cfg.js my-awesome-books.xlsx > books-list.json
 
 ### [The `xlsx-renderer-cli` (package: `sxr`)](./xlsx-renderer/990-cli.md))
 
-[![NPM](https://img.shields.io/npm/l/sxr)](https://www.npmjs.com/package/sxr) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-renderer-cli)](https://github.com/Siemienik/xtoolset/actions)
+[![NPM](https://img.shields.io/npm/l/sxr)](https://www.npmjs.com/package/sxr)
 
 Generate spreadsheets files following by the `template` with `view model` from command line.
 
