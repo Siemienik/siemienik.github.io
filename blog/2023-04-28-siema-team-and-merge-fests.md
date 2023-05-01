@@ -26,7 +26,7 @@ Hello hello, I'm delighted to share some updates with you regarding the current 
 
 <center>
 
-![SiemaTeam](https://discordapp.com/api/guilds/976854442009825321/widget.png?style=banner2)
+[![SiemaTeam](https://discordapp.com/api/guilds/976854442009825321/widget.png?style=banner2)](https://discord.gg/siema)
 
 **or siema@siemienik.com**
 
