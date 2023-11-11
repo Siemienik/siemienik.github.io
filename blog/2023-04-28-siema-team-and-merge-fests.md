@@ -16,9 +16,11 @@ tags:
 - SoftwareDevelopment
 ---
 
-Hello hello, I'm delighted to share some updates with you regarding the current situation. First off, I've launched [@SiemaTeam](https://discord.gg/siema), where together we organize MergeFests. These are online meetings where we collaboratively conduct code reviews and merge PRs from **ExcelJS** and **XToolset**. So far, we've already had four such events, and the next one - the fifth - starts soon! There's another surprise, for those who missed ExcelJS releases - I published a fork [`@siema-team/spreadsheets`](https://www.npmjs.com/package/@siema-team/spreadsheets), which contains the latest and always up-to-date version of the main library.
+Hello hello, I'm delighted to share some updates with you regarding the current situation. First off, I've launched [@SiemaTeam](https://discord.gg/siema), where together we organize MergeFests. These are online meetings where we collaboratively conduct code reviews and merge PRs from **ExcelJS** and **XToolset**. So far, we've already had four such events, and the next one - the fifth - starts soon! There's another surprise, for those who missed ExcelJS releases - ~I published a fork `@siema-team/spreadsheets`, which contains the latest and always up-to-date version of the main library.~
 
-*Head over to the rest of the blog, where you'll find more info on what's happening and how.*
+***EDIT 20-11-2023:** I received permissions to publish `exceljs` npm package, and restored releasing cycle.*
+
+<!-- truncate -->
 
 ## SiemaTeam - Open Source maintainers
 
@@ -88,12 +90,10 @@ A jezeli chcesz nas wesprzec, porozmiaj z nami na Discord, albo zaloz PullReques
 
 juz teraz mozesz dokonac migracje z standardowej paczki exceljs do naszej poprzez podmiane `exceljs` na `@siema-team/spreadsheets`. Obiecuje ze zachowamy kompatybilnosc wsteczna. Nasz fork jest najaktualniejsza wersja exceljs-a, mysle ze to glowny powod dlaczego warto.
 -->
-We actively review PRs and address issues for ExcelJS. Additionally, [our fork](https://github.com/SiemaTeam/Spreadsheets) is configured to always be up-to-date with the main repo. Continuous delivery to npm is planned.
+We actively review PRs and address issues for ExcelJS.
 We want to achieve greater compatibility with the xlsx format. Migrate the entire project to TypeScript, and fix as many bugs as possible. Keep your fingers crossed!
 
 If you'd like to support us, join our Discord conversation, or create a Pull Request. You can also become a sponsor or purchase my consulting services, and I'd be happy to discuss any potential perks.
-
-You can already migrate from the standard exceljs package to ours by replacing `exceljs` with `@siema-team/spreadsheets`. I will keep backward compatibility. Our fork is the most up-to-date version of exceljs,  which I believe is the primary reason to make the switch.
 
 ### Project: XToolset
 
@@ -114,6 +114,6 @@ Dodatkowo, wlasnie rozpoczynam startup. Na ten moment dogrywam szczegoly i przym
 Dzieki za twoja uwage. mam nadzieje ze z przyjemnoscia przeczytales moj update! Pozdrawiam i do zobaczenia wkrotce!
 -->
 
-Additionally, I'm currently launching a startup. At this moment, I'm working out the details and getting ready to assemble a team. I hope to share our MVP in the near future.
+~Additionally, I'm currently launching a startup. At this moment, I'm working out the details and getting ready to assemble a team. I hope to share our MVP in the near future.~
 
 Thank you for your attention. I hope you enjoyed reading my update! Best regards, and see you soon!
