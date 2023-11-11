@@ -1,16 +1,18 @@
 ---
-slug: ./xlsx-import/cli
+slug: ./cli
 id: xlsx-import-cli
-sidebar_label: XLSX-Import (CLI)
-sidebar_position: 1.1
+sidebar_label: Command Line (CLI)
+pagination_next: main_docs
 ---
 # XLSX Import - Command Line Interface
 
 [![NPM](https://img.shields.io/npm/l/sxi)![npm](https://img.shields.io/npm/v/sxi)](https://www.npmjs.com/package/sxi) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-import-cli)](https://github.com/Siemienik/xtoolset/actions)
 
-_Github: [https://github.com/Siemienik/XToolset/.../xlsx-import-cli](https://github.com/Siemienik/XToolset/tree/master/packages/xlsx-import-cli)_
+_
+Github: [https://github.com/Siemienik/XToolset/.../xlsx-import-cli](https://github.com/Siemienik/XToolset/tree/master/packages/xlsx-import-cli)_
 
-Command line interface for [xlsx-import](./xlsx-import-readme.md). Configurable import spreadsheet files with TS types support.
+Command line interface for [xlsx-import](./001-xlsx-import-homepage.md). Configurable import spreadsheet files with TS
+types support.
 
 Part of **XToolset** - collection of tools makes handling spreadsheet handy, easy with great developer experience.
 
@@ -102,7 +104,7 @@ It is also allowed using pipe parameter to forward imported data into another co
 
 The config inherit from `xlsx-import`. Please use link below for more information:
 
-[**XLSX Import Documentation**](./xlsx-import-readme.md#the-configuration)
+[**XLSX Import Documentation**](./001-xlsx-import-homepage.md#the-configuration)
 
 ## Support
 
