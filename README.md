@@ -34,15 +34,10 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ## To do:
 
-* [ ] favico
-* [ ] Write blog posts
-* [ ] CI: deployment to GHPages
-* [ ] Plugin Siemienik.com domain
 * [ ] Add "contact" subpage
 * [ ] Add information how to sponsor my OSS activities
 * [ ] Write and add exceljs documentation
 * [ ] Add tags descriptions -SEO
-* [ ] Add about me page
 * [ ] Add paid services offer
 
 

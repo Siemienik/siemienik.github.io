@@ -1,8 +1,8 @@
 ---
-slug: ./xlsx-import
+slug: ./
 id: xlsx-import
-sidebar_label: XLSX-Import
-sidebar_position: 1
+sidebar_label: Readme
+pagination_previous: main_docs
 ---
 
 # XLSX-Import
@@ -112,11 +112,11 @@ const factory = new ImporterFactory();
 
 //...
 
-// for filePath: 
+// for filePath:
 const importer = await factory.from(filePath);
 
 // for buffer:
-// const importer = await factory.fromBuffer(buffer); 
+// const importer = await factory.fromBuffer(buffer);
 
 const books = importer.getAllItems<Book[]>(config.books); // it returns `Book[]`
 const book = importer.getFirstItem<Book>(config.books); // it returns first `Book` item
@@ -126,7 +126,7 @@ const author = importer.getFirstItem<Person>(config.owner); // it returns `Perso
 
 ## Command Line Interface (CLI)
 
-It is possible to use the command line interface [read more about xlsx-import-cli](./xlsx-import-cli-readme.md).
+It is possible to use the command line interface [read more about xlsx-import-cli](./090-xlsx-import-cli-readme.md).
 
 ## Examples
 
@@ -249,19 +249,19 @@ const cfg = {
 
 ## Mappers
 
-| Exported Name | Description
-|-----|-----------
-|upperCaseMapper|Transforms string to upper case
-|lowerCaseMapper|Transforms string to lower case
-|jsonMapper|Transforms a json string to a TJsonResponse or to null if parsing was not possible
-|integerMapper|Transforms string into integer
-|booleanMapper|Transforms string into boolean
-|numberMapper|Transforms string into number
-|dateMapper|Transforms date string into `Date` object
-|isValue|Examines if value is included in accepted values provided
-|isEmpty|Examines if input is empty
-|isFilled|Examines if input is not empty
-|[splitMapper](#splitmapper)|Transforms string into array of items
+| Exported Name               | Description                                                                        |
+|-----------------------------|------------------------------------------------------------------------------------|
+| upperCaseMapper             | Transforms string to upper case                                                    |
+| lowerCaseMapper             | Transforms string to lower case                                                    |
+| jsonMapper                  | Transforms a json string to a TJsonResponse or to null if parsing was not possible |
+| integerMapper               | Transforms string into integer                                                     |
+| booleanMapper               | Transforms string into boolean                                                     |
+| numberMapper                | Transforms string into number                                                      |
+| dateMapper                  | Transforms date string into `Date` object                                          |
+| isValue                     | Examines if value is included in accepted values provided                          |
+| isEmpty                     | Examines if input is empty                                                         |
+| isFilled                    | Examines if input is not empty                                                     |
+| [splitMapper](#splitmapper) | Transforms string into array of items                                              |
 
 ### `splitMapper`
 
