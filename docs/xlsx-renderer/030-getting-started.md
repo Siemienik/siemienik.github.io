@@ -11,7 +11,7 @@ sidebar_label: Getting Started
 Basic part of using XLSX-Renderer is creating a template file. 
 
 1. Open MS Excel (or another worksheet manager) and create new file,
-2. In `A1` type <code># Hello ${name}! How are you?</code> - which insert variable `name` into template string,
+2. In `A1` type <code># Hello $\{name}! How are you?</code> - which insert variable `name` into template string,
 3. In `A2` type `#! END_ROW` - which commits this row and move to the next one,
 4. In `B1` type `Total items:`,
 5. In `B2` type `## items.length` - which writes length of array `items`,

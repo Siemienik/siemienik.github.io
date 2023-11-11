@@ -1,13 +1,13 @@
 ---
-slug: ./xlsx-import
+slug: ./
 id: xlsx-import
-sidebar_label: XLSX-Import
-sidebar_position: 1
+sidebar_label: Readme
+pagination_previous: main_docs
 ---
 
 # XLSX-Import
 
-[![NPM](https://img.shields.io/npm/l/xlsx-import)![npm](https://img.shields.io/npm/v/xlsx-import)](https://www.npmjs.com/package/xlsx-import) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/siemienik/xtoolset/xlsx-import)](https://github.com/Siemienik/xtoolset/actions) [![codecov](https://codecov.io/gh/Siemienik/xtoolset/branch/master/graph/badge.svg?flag=xlsx-import)](https://codecov.io/gh/Siemienik/xtoolset/tree/master/packages/xlsx-import)
+[![NPM](https://img.shields.io/npm/l/xlsx-import)![npm](https://img.shields.io/npm/v/xlsx-import)](https://www.npmjs.com/package/xlsx-import) [![codecov](https://codecov.io/gh/Siemienik/xtoolset/branch/master/graph/badge.svg?flag=xlsx-import)](https://codecov.io/gh/Siemienik/xtoolset/tree/master/packages/xlsx-import)
 
 _Github: [https://github.com/Siemienik/XToolset/.../xlsx-import](https://github.com/Siemienik/XToolset/tree/master/packages/xlsx-import)_
 
@@ -112,11 +112,11 @@ const factory = new ImporterFactory();
 
 //...
 
-// for filePath: 
+// for filePath:
 const importer = await factory.from(filePath);
 
 // for buffer:
-// const importer = await factory.fromBuffer(buffer); 
+// const importer = await factory.fromBuffer(buffer);
 
 const books = importer.getAllItems<Book[]>(config.books); // it returns `Book[]`
 const book = importer.getFirstItem<Book>(config.books); // it returns first `Book` item
@@ -126,27 +126,27 @@ const author = importer.getFirstItem<Person>(config.owner); // it returns `Perso
 
 ## Command Line Interface (CLI)
 
-It is possible to use the command line interface [read more about xlsx-import-cli](./xlsx-import-cli-readme.md).
+It is possible to use the command line interface [read more about xlsx-import-cli](./090-xlsx-import-cli-readme.md).
 
 ## Examples
 
-Example integrations with `xlsx-import` are placed in [samples](https://github.com/Siemienik/XToolSet/tree/master/samples) directory. Currently, available:
+Example integrations with `xlsx-import` are placed in [Siemienik/XToolset-examples](https://github.com/Siemienik/XToolSet-examples/tree/master/) directory. Currently, available:
 
 ### Frontend frameworks
 
-* [Vue sample](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import%2Bvue) - it is a web app created with Vue that displays parsed xlsx file.
-* [React sample](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import%2Breact) - it is a web app created with React that displays parsed xlsx file.
-* [Angular sample](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import%2Bangular) - it is a web app created with Angular that displays parsed xlsx file.
+* [Vue sample](https://github.com/Siemienik/XToolSet-examples/tree/master/xlsx-import%2Bvue) - it is a web app created with Vue that displays parsed xlsx file.
+* [React sample](https://github.com/Siemienik/XToolSet-examples/tree/master/xlsx-import%2Breact) - it is a web app created with React that displays parsed xlsx file.
+* [Angular sample](https://github.com/Siemienik/XToolSet-examples/tree/master/xlsx-import%2Bangular) - it is a web app created with Angular that displays parsed xlsx file.
 
 ### Console / CLI
 
-* [NodeJS sample](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import%2Bnodejs) of **importing an invoice** - it is pure JS example which runs on nodejs.
-* [NodeJS + TS sample](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import%2Bnodejs%2Bts) of **importing an invoice** - it is Typescript example that can be transpiled down to pure JS or run directly with ts-node.
-* [**:star: Command line of xlsx-import**](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import-cli)  examples with prepared scripts based on cli version of xlsx-import.
+* [NodeJS sample](https://github.com/Siemienik/XToolSet-examples/tree/master/xlsx-import%2Bnodejs) of **importing an invoice** - it is pure JS example which runs on nodejs.
+* [NodeJS + TS sample](https://github.com/Siemienik/XToolSet-examples/tree/master/xlsx-import%2Bnodejs%2Bts) of **importing an invoice** - it is Typescript example that can be transpiled down to pure JS or run directly with ts-node.
+* [Command line of xlsx-import](https://github.com/Siemienik/XToolSet-examples/tree/master/xlsx-import-cli)  examples with prepared scripts based on cli version of xlsx-import.
 
 ### Backend
 
-* [ExpressJS sample](https://github.com/Siemienik/XToolSet/tree/master/samples/xlsx-import%2Bexpress) - it is a small service created with ExpressJS can parse xlsx files with concrete structure
+* [ExpressJS sample](https://github.com/Siemienik/XToolSet/tree/master/xlsx-import%2Bexpress) - it is a small service created with ExpressJS can parse xlsx files with concrete structure
 
 ## The Configuration
 
@@ -174,10 +174,10 @@ const cfg = {
 
 * **`types`**
 
-| Enum `ImportType` | Raw values | Description
-|-----|------------|-----------
-| **Default:** <br/>`List`, aliases: `ListVertical`,  `Vertical`  | `list`, `list-vertical`, `vertical` | Used to import list of objects from worksheet reading from top to down (row by row). Each field has to defined column index (`A` is `1`, `B` is `2` ... etc.). Fallback mechanism use this option for incorrect `type` value (warn message will be printed).
-| `Object`, aliases: `Single`,  `Singleton`  | `object`, `single`, `singletion` | Used to import single object from worksheet. Each field has to has defined row&col index.
+| Enum `ImportType`                                              | Raw values                          | Description                                                                                                                                                                                                                                                  |
+|----------------------------------------------------------------|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Default:** <br/>`List`, aliases: `ListVertical`,  `Vertical` | `list`, `list-vertical`, `vertical` | Used to import list of objects from worksheet reading from top to down (row by row). Each field has to defined column index (`A` is `1`, `B` is `2` ... etc.). Fallback mechanism use this option for incorrect `type` value (warn message will be printed). |
+| `Object`, aliases: `Single`,  `Singleton`                      | `object`, `single`, `singletion`    | Used to import single object from worksheet. Each field has to has defined row&col index.                                                                                                                                                                    |
 
 ### Type: `ListVertical`
 
@@ -249,19 +249,20 @@ const cfg = {
 
 ## Mappers
 
-| Exported Name | Description
-|-----|-----------
-|upperCaseMapper|Transforms string to upper case
-|lowerCaseMapper|Transforms string to lower case
-|[jsonMapper](#jsonmapper) |Transforms a JSON string to a JSON object or to null if parsing was not possible
-|integerMapper|Transforms string into integer
-|booleanMapper|Transforms string into boolean
-|numberMapper|Transforms string into number
-|dateMapper|Transforms date string into `Date` object
-|isValue|Examines if value is included in accepted values provided
-|isEmpty|Examines if input is empty
-|isFilled|Examines if input is not empty
-|[splitMapper](#splitmapper)|Transforms string into array of items
+
+| Exported Name               | Description                                                                      |
+|-----------------------------|----------------------------------------------------------------------------------|
+| upperCaseMapper             | Transforms string to upper case                                                  |
+| lowerCaseMapper             | Transforms string to lower case                                                  |
+| [jsonMapper](#jsonmapper)   | Transforms a JSON string to a JSON object or to null if parsing was not possible |
+| integerMapper               | Transforms string into integer                                                   |
+| booleanMapper               | Transforms string into boolean                                                   |
+| numberMapper                | Transforms string into number                                                    |
+| dateMapper                  | Transforms date string into `Date` object                                        |
+| isValue                     | Examines if value is included in accepted values provided                        |
+| isEmpty                     | Examines if input is empty                                                       |
+| isFilled                    | Examines if input is not empty                                                   |
+| [splitMapper](#splitmapper) | Transforms string into array of items                                            |
 
 ### `splitMapper`
 
@@ -328,13 +329,12 @@ We are ready to provide paid support, in order that please contact me: [hi@siemi
 
 ### ✅ Browser Support
 
-Browser supporting has been proved for ✅ _Chrome_ and ✅ _Firefox_ in [Angular & Vue & React Samples](#frontend-frameworks) and theirs tests. Feel welcome to run samples by yourselves and check it.
+Browser supporting has been proved for ✅ _Chrome_ and ✅ _Firefox_ in [Angular & Vue & React Examples](#frontend-frameworks) and theirs tests. Feel welcome to run examples by yourselves and check it.
 
 ### ✅ NodeJS Support
 
-10 | 11 | 12 | 13 | 14 | 15
-----|----|----|----|----|----
-✅ | ✅ | ✅ | ✅ | ✅ | ✅
+| 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  | 20  | 21  |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| ✅   | ✅   | ✅   | ✅   | ✅   | ✅   | ✅   | ✅   | ✅   | ✅   | ✅   | ✅   |
 
-If Node v8 & v9 needed, please contact us [support@siemienik.pl](mailto://support@siemienik.pl).
 

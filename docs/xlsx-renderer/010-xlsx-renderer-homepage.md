@@ -2,6 +2,7 @@
 slug: ./
 id: homepage
 sidebar_label: Introduction
+pagination_previous: main_docs
 ---
 
 # XLSX-Renderer
@@ -46,9 +47,9 @@ Chapters included in this section:
 
 ## Worth to know
 
-* XLSX-Renderer is member of [XToolset](../xtoolset-readme.md),
-* There is a possibility to import data from XLSX (also from generated) files, read more about [XLSX-Import](../xlsx-import-readme.md),
-* GitHub repository: https://github.com/Siemienik/XToolSet.
+* There is a possibility to import data from XLSX (also from generated) files, read more
+  about [XLSX-Import](../xlsx-import/001-xlsx-import-homepage.md),
+* GitHub repository: https://github.com/Siemienik/XToolset.
 
 ### Support
 
@@ -66,9 +67,9 @@ We are ready to provide paid support or consulting, in order that please contact
 
 #### ✅ NodeJS
 
-|  10 |  11 |  12 |  13 |  14 | 15 | 16 | 17 |
-|-----|-----|-----|-----|-----|----|----|----|
-| 🟢 |  🟢 | 🟢 |  🟢 | 🟢 | 🟢 | 🟢 | 🟢 |
+| 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  | 20  | 21  |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 🟢  | 🟢  | 🟢  | 🟢  | 🟢  | 🟢  | 🟢  | 🟢  | 🟢  | 🟢  | 🟢  | 🟢  |
 
 #### ✅ Browsers
 

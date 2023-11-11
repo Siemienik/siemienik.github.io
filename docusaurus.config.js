@@ -11,6 +11,7 @@ module.exports = {
   projectName: 'siemienik.com',
   themeConfig: {
     algolia: {
+      appId: 'todo',
       apiKey: 'e552182743ab25e516c07c2754ce9c90',
       indexName: 'siemienik',
     },
@@ -22,15 +23,10 @@ module.exports = {
       },
       items: [
         {to: '/blog/', label: 'Blog', position: 'left', activeBasePath: 'blog/'},
-        {to: '/pawel', label: 'About me', position: 'left', activeBaseRegex: '^/pawel&'},
-        // {to: '/tags/portfolio', label: 'Portfolio', position: 'left', activeBaseRegex: '(tags/)?portfolio'},
-        {to: '/docs/',  label: 'Documentation', activeBasePath: 'docs/'},
-        // {to: '/docs/', position: 'right', label: 'Documentation', activeBasePath: 'docs/', items:[
-        //   {to: '/docs/xtoolset/', position: 'right', label: 'XToolset', activeBaseRegex: 'docs/[^e].*/'},
-        //   {to: '/docs/exceljs/', position: 'right', label: 'ExcelJS', activeBasePath: 'docs/exceljs/'}
-        // ]},
-        {to: 'https://github.com/sponsors/siemienik', position: 'right', label: 'GitHub'},
-
+        {to: '/docs/', position: 'right', label: 'DOCS:', activeBasePath: 'docs'},
+        {to: '/docs/xlsx-renderer/', position: 'right', label: 'XLSX-Renderer', activeBasePath: 'docs/xlsx-renderer'},
+        {to: '/docs/xlsx-import/', position: 'right', label: 'XLSX-Import', activeBasePath: 'docs/xlsx-import'},
+        {to: '/docs/exceljs/', position: 'right', label: 'ExcelJS', activeBasePath: 'docs/exceljs'},
       ],
     },
     footer: {
@@ -38,30 +34,26 @@ module.exports = {
         {
           title: 'Docs',
           items: [
-            { label: 'XToolset', to: '/docs/xtoolset/' },
-            { label: '➔ XLSX-Renderer', to: '/docs/xlsx-renderer' },
-            { label: '➔ XLSX-Import', to: '/docs/xlsx-import' },
-            { label: 'ExcelJS', href: 'https://github.com/exceljs/exceljs#exceljs' },
+            {label: 'Documentation', to: '/docs/'},
+            {label: '➔ XLSX-Renderer', to: '/docs/xlsx-renderer'},
+            {label: '➔ XLSX-Import', to: '/docs/xlsx-import'},
+            {label: '➔ ExcelJS', href: '/docs/exceljs'},
           ],
         },
         {
-          title: 'Details',
+          title: 'Links',
           items: [
-            // { label: 'Contact', to: '/contact' },
-            { label: 'Gitter', href: 'https://gitter.im/siemienik/community' },
-            // { label: 'LinkedIn', href: 'https://gitter.im/siemienik/community' },
-            { label: 'GitHub', href: 'https://github.com/siemienik' },
+            {label: 'Releases', to: '/blog/tags/release'},
+            {label: 'Sponsoring', href: 'https://github.com/sponsors/siemienik'},
+            {label: 'GitHub Exceljs', href: 'https://github.com/exceljs/exceljs'},
+            {label: 'Github XToolset', href: 'https://github.com/siemienik/xtoolset'},
           ],
         },
         {
-          title: 'Useful links',
           items: [
-            { label: 'About me', to: '/pawel' },
-            { label: 'Sponsor me', href: 'https://github.com/sponsors/siemienik' },
-            { label: 'Github XToolset', href: 'https://github.com/siemienik/xtoolset' },
-            { label: 'GitHub Exceljs', href: 'https://github.com/exceljs/exceljs' },
-          ],
-        },
+            {html: '<a href="https://discord.gg/siema"><img src="https://discordapp.com/api/guilds/976854442009825321/widget.png?style=banner1" alt="Discord server"></a>'}
+          ]
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Siemienik Paweł. <br/> Content licensed on <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.`,
     },
