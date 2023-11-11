@@ -174,10 +174,10 @@ const cfg = {
 
 * **`types`**
 
-| Enum `ImportType` | Raw values | Description
-|-----|------------|-----------
-| **Default:** <br/>`List`, aliases: `ListVertical`,  `Vertical`  | `list`, `list-vertical`, `vertical` | Used to import list of objects from worksheet reading from top to down (row by row). Each field has to defined column index (`A` is `1`, `B` is `2` ... etc.). Fallback mechanism use this option for incorrect `type` value (warn message will be printed).
-| `Object`, aliases: `Single`,  `Singleton`  | `object`, `single`, `singletion` | Used to import single object from worksheet. Each field has to has defined row&col index.
+| Enum `ImportType`                                              | Raw values                          | Description                                                                                                                                                                                                                                                  |
+|----------------------------------------------------------------|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Default:** <br/>`List`, aliases: `ListVertical`,  `Vertical` | `list`, `list-vertical`, `vertical` | Used to import list of objects from worksheet reading from top to down (row by row). Each field has to defined column index (`A` is `1`, `B` is `2` ... etc.). Fallback mechanism use this option for incorrect `type` value (warn message will be printed). |
+| `Object`, aliases: `Single`,  `Singleton`                      | `object`, `single`, `singletion`    | Used to import single object from worksheet. Each field has to has defined row&col index.                                                                                                                                                                    |
 
 ### Type: `ListVertical`
 
@@ -249,19 +249,20 @@ const cfg = {
 
 ## Mappers
 
-| Exported Name               | Description                                                                        |
-|-----------------------------|------------------------------------------------------------------------------------|
-| upperCaseMapper             | Transforms string to upper case                                                    |
-| lowerCaseMapper             | Transforms string to lower case                                                    |
-| jsonMapper                  | Transforms a json string to a TJsonResponse or to null if parsing was not possible |
-| integerMapper               | Transforms string into integer                                                     |
-| booleanMapper               | Transforms string into boolean                                                     |
-| numberMapper                | Transforms string into number                                                      |
-| dateMapper                  | Transforms date string into `Date` object                                          |
-| isValue                     | Examines if value is included in accepted values provided                          |
-| isEmpty                     | Examines if input is empty                                                         |
-| isFilled                    | Examines if input is not empty                                                     |
-| [splitMapper](#splitmapper) | Transforms string into array of items                                              |
+
+| Exported Name               | Description                                                                      |
+|-----------------------------|----------------------------------------------------------------------------------|
+| upperCaseMapper             | Transforms string to upper case                                                  |
+| lowerCaseMapper             | Transforms string to lower case                                                  |
+| [jsonMapper](#jsonmapper)   | Transforms a JSON string to a JSON object or to null if parsing was not possible |
+| integerMapper               | Transforms string into integer                                                   |
+| booleanMapper               | Transforms string into boolean                                                   |
+| numberMapper                | Transforms string into number                                                    |
+| dateMapper                  | Transforms date string into `Date` object                                        |
+| isValue                     | Examines if value is included in accepted values provided                        |
+| isEmpty                     | Examines if input is empty                                                       |
+| isFilled                    | Examines if input is not empty                                                   |
+| [splitMapper](#splitmapper) | Transforms string into array of items                                            |
 
 ### `splitMapper`
 
@@ -295,6 +296,31 @@ const result = wordsInSentencesMapper(input);
 
 ```
 
+### `jsonMapper`
+
+JSON Mapper transforming JSON string to a JSON object.
+
+```ts
+// Building a mapper 
+const mapper: JsonMapper = jsonMapper;
+
+// Usage sample:
+const jsonString: string = '{"name":"John Doe"}';
+const result: object = mapper(jsonString); // { name: 'John Doe'}
+
+// JsonMapper returns default value (null) in case it could not parse the input
+const invalidJsonString: string = 'invalid JSON';
+const result: null = mapper(jsonString); // null
+```
+
+The default value is customizable:
+```ts
+const mapper: JsonMapper = jsonMapper.default('My default value');
+const invalidJsonString: string = 'invalid JSON';
+const result: string = mapper(invalidJsonString); // 'My default value'
+```
+
+
 ## Support
 
 If any help needed, just feel free to create an issue. We will be really thankful for added links into stackoverflow topics if exists.
@@ -307,9 +333,8 @@ Browser supporting has been proved for ✅ _Chrome_ and ✅ _Firefox_ in [Angula
 
 ### ✅ NodeJS Support
 
-10 | 11 | 12 | 13 | 14 | 15
-----|----|----|----|----|----
-✅ | ✅ | ✅ | ✅ | ✅ | ✅
+| 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  | 20  | 21  |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| ✅   | ✅   | ✅   | ✅   | ✅   | ✅   | ✅   | ✅   | ✅   | ✅   | ✅   | ✅   |
 
-If Node v8 & v9 needed, please contact us [support@siemienik.pl](mailto://support@siemienik.pl).
 
