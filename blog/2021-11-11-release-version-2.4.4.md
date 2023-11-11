@@ -1,5 +1,5 @@
 ---
-title: Version 2.4.4
+title: XToolset v2.4.4
 author: Pawel Siemienik
 author_title: Founder
 author_url: /pawel
