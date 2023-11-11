@@ -6,7 +6,7 @@ pagination_previous: null
 pagination_next: null
 ---
 
-# Welcome to Siemienik's Open Source Projects:
+# Open Source Projects:
 
 Hello! I'm incredibly fortunate that many of you can benefit from the results of my work. Currently, these are mainly
 projects related to processing Excel files. However, as soon as time permits, I have a bunch of ideas on how to improve
