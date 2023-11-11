@@ -14,11 +14,12 @@ jobs:
       - uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f #v2
       - uses: actions/setup-node@25316bbc1f10ac9d8798711f44914b1cf3c4e954 #v2
         with:
-          node-version: "18"
+          node-version: "20"
       - name: Build
         run: |
-          npm ci
-          npm run build
+          npm install -g yarn
+          yarn install --immutable --immutable-cache --check-cache
+          yarn build
       - name: Deploy
         uses: crazy-max/ghaction-github-pages@db4476a01402e1a7ce05f41832040eef16d14925 #v2
         with:
