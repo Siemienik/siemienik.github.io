@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Siemienik Paweł Blog</title>
+        <link>https://siemienik.com/blog</link>
+        <description>Siemienik Paweł Blog</description>
+        <lastBuildDate>Fri, 20 Oct 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[🚀 ExcelJS v4.4.0]]></title>
+            <link>https://siemienik.com/blog/2023/10/20/exceljs-v4-4-0</link>
+            <guid>https://siemienik.com/blog/2023/10/20/exceljs-v4-4-0</guid>
+            <pubDate>Fri, 20 Oct 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Exciting News from ExcelJS!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="exciting-news-from-exceljs">Exciting News from ExcelJS!<a href="https://siemienik.com/blog/2023/10/20/exceljs-v4-4-0#exciting-news-from-exceljs" class="hash-link" aria-label="Direct link to Exciting News from ExcelJS!" title="Direct link to Exciting News from ExcelJS!">​</a></h2>
+<p>The long-awaited Version 4.4.0 of ExcelJS has been launched, and it's brimming with new features and improvements. That is significant milestone, thank you to every contributor and user!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What's New?<a href="https://siemienik.com/blog/2023/10/20/exceljs-v4-4-0#whats-new" class="hash-link" aria-label="Direct link to What's New?" title="Direct link to What's New?">​</a></h2>
+<p>36 PRs merged, with bug fixes, new features, and TypeScript improvements.</p>
+<p>Read more details on GH: <a href="https://github.com/exceljs/exceljs/releases/tag/v4.4.0" target="_blank" rel="noopener noreferrer">https://github.com/exceljs/exceljs/releases/tag/v4.4.0</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next?<a href="https://siemienik.com/blog/2023/10/20/exceljs-v4-4-0#whats-next" class="hash-link" aria-label="Direct link to What's Next?" title="Direct link to What's Next?">​</a></h2>
+<p>Please follow pinned discussions on GH project page. There is currently three topics.</p>
+<ul>
+<li><a href="https://github.com/exceljs/exceljs/discussions/2573" target="_blank" rel="noopener noreferrer">Next Patch (v4.4.1) #2573</a> - about what will be included in the sooner release.</li>
+<li><a href="https://github.com/exceljs/exceljs/discussions/2574" target="_blank" rel="noopener noreferrer">Next Minor (v4.5.0) #2574</a> - about new features planned.</li>
+<li><a href="https://github.com/exceljs/exceljs/discussions/2575" target="_blank" rel="noopener noreferrer">(New in v4.5.0) Pivot Table #2575</a> - about PivotTable feature and current limitations.</li>
+</ul>
+<p>Your suggestion are welcomed, feel free to join our Discord: <a href="https://discord.gg/siema" target="_blank" rel="noopener noreferrer">https://discord.gg/siema</a> .</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="feedback--collaboration">Feedback &amp; Collaboration:<a href="https://siemienik.com/blog/2023/10/20/exceljs-v4-4-0#feedback--collaboration" class="hash-link" aria-label="Direct link to Feedback &amp; Collaboration:" title="Direct link to Feedback &amp; Collaboration:">​</a></h2>
+<p>Your feedback is invaluable. Explore the latest version, and let us know your thoughts.
+For those seeking expert advice or collaboration opportunities, feel free to reach out at <a href="mailto:consulting@siemienik.com" target="_blank" rel="noopener noreferrer">consulting@siemienik.com</a>.</p>]]></content:encoded>
+            <category>Release</category>
+            <category>Spreadsheets</category>
+            <category>Collaboration</category>
+            <category>SoftwareDevelopment</category>
+            <category>OpenSource</category>
+            <category>ExcelJS</category>
+            <category>MergeFest</category>
+        </item>
+        <item>
+            <title><![CDATA[Empowering Open Source: SiemaTeam's Journey]]></title>
+            <link>https://siemienik.com/blog/2023/04/28/siema-team-and-merge-fests</link>
+            <guid>https://siemienik.com/blog/2023/04/28/siema-team-and-merge-fests</guid>
+            <pubDate>Fri, 28 Apr 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello hello, I'm delighted to share some updates with you regarding the current situation. First off, I've launched @SiemaTeam, where together we organize MergeFests. These are online meetings where we collaboratively conduct code reviews and merge PRs from ExcelJS and XToolset. So far, we've already had four such events, and the next one - the fifth - starts soon! There's another surprise, for those who missed ExcelJS releases - ~I published a fork @siema-team/spreadsheets, which contains the latest and always up-to-date version of the main library.~]]></description>
+            <content:encoded><![CDATA[<p>Hello hello, I'm delighted to share some updates with you regarding the current situation. First off, I've launched <a href="https://discord.gg/siema" target="_blank" rel="noopener noreferrer">@SiemaTeam</a>, where together we organize MergeFests. These are online meetings where we collaboratively conduct code reviews and merge PRs from <strong>ExcelJS</strong> and <strong>XToolset</strong>. So far, we've already had four such events, and the next one - the fifth - starts soon! There's another surprise, for those who missed ExcelJS releases - <del>I published a fork <code>@siema-team/spreadsheets</code>, which contains the latest and always up-to-date version of the main library.</del></p>
+<p><em><strong>EDIT 20-11-2023:</strong> I received permissions to publish <code>exceljs</code> npm package, and restored releasing cycle.</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="siemateam---open-source-maintainers">SiemaTeam - Open Source maintainers<a href="https://siemienik.com/blog/2023/04/28/siema-team-and-merge-fests#siemateam---open-source-maintainers" class="hash-link" aria-label="Direct link to SiemaTeam - Open Source maintainers" title="Direct link to SiemaTeam - Open Source maintainers">​</a></h2>
+<p><a href="https://discord.gg/siema" target="_blank" rel="noopener noreferrer">@SiemaTeam</a> is enthusiastic team of volunteers who are passionate about supporting open-source initiatives. If you're in need of assistance, consultancy, or if you'd like to join us in contributing to the growth and development of these projects, please don't hesitate to reach out to us at:</p>
+<center><p><a href="https://discord.gg/siema" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://discordapp.com/api/guilds/976854442009825321/widget.png?style=banner2" alt="SiemaTeam" class="img_ev3q"></a></p><p><strong>or <a href="mailto:siema@siemienik.com" target="_blank" rel="noopener noreferrer">siema@siemienik.com</a></strong></p></center>
+<p>Our goal is to collaboratively develop open-source projects and promote their use. We believe that by doing so, we can contribute to the advancement of civilization. If this sounds interesting to you, feel free to join us. We are very open to all kinds of contributions, including discussions and collaborative projects.</p>
+<p>What's in it for us? At first glance, it seems like nothing. We do this as volunteers. However, you should know that it brings immense satisfaction and allows us to meet interesting people from around the world with similar (or different) approaches to Open Source. Personally, the moments spent in this community are irreplaceable. I warmly invite you to join us as well.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="mergefests">MergeFests<a href="https://siemienik.com/blog/2023/04/28/siema-team-and-merge-fests#mergefests" class="hash-link" aria-label="Direct link to MergeFests" title="Direct link to MergeFests">​</a></h2>
+<p>What is a MergeFest? I explained it once on <a href="https://www.linkedin.com/posts/siemienik_join-the-siema-discord-server-activity-7053853033994039296-twYT" target="_blank" rel="noopener noreferrer">LinkedIn post</a>:</p>
+<blockquote>
+<p>👋 #MergeFest is an opportunity to #review PRs and Issues, do reviews, and merge. The whole event is, of course, accompanied by a great discussion among #ExcelJS #contributors.</p>
+<p>Agenda:</p>
+<ol>
+<li>Small Talk - about 5 minutes</li>
+<li>PR review: around 40 minutes<!-- -->
+<ul>
+<li>we take a PR from the list of candidates</li>
+<li>we put it on the chat and give a moment to get acquainted with the PR</li>
+<li>discussion / review</li>
+<li>merge</li>
+</ul>
+</li>
+<li>Further project development - 10 minutes</li>
+<li>Farewell and organization of the next MergeFest - 5minutes</li>
+</ol>
+<p>The whole event is intended to be an informal gathering, where we can calmly discuss important issues for us and, above all, clear the list of PRs.</p>
+<p>Best regards and see you there!</p>
+</blockquote>
+<p>We try to organize them as often as possible, typically once or twice a week. Subscirbe the #exceljs channel, we always gather there when we have some spare time for the next MergeFest.</p>
+<p>During the previous I - IV MergeFests, we merged 11 PRs from ExcelJS and few from XToolset. We reviewed more but they haven't been merged yet. We discuss our goals, including migrating to TypeScript and fixing errors. So the outcomes are tangible and real. Mergefest participants have a genuine impact on the projects' future.</p>
+<p><strong>Thank you all who joined these meetings, You're brillant! I really appreciate it!</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="project-exceljs">Project: ExcelJS<a href="https://siemienik.com/blog/2023/04/28/siema-team-and-merge-fests#project-exceljs" class="hash-link" aria-label="Direct link to Project: ExcelJS" title="Direct link to Project: ExcelJS">​</a></h2>
+<p>We actively review PRs and address issues for ExcelJS.
+We want to achieve greater compatibility with the xlsx format. Migrate the entire project to TypeScript, and fix as many bugs as possible. Keep your fingers crossed!</p>
+<p>If you'd like to support us, join our Discord conversation, or create a Pull Request. You can also become a sponsor or purchase my consulting services, and I'd be happy to discuss any potential perks.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="project-xtoolset">Project: XToolset<a href="https://siemienik.com/blog/2023/04/28/siema-team-and-merge-fests#project-xtoolset" class="hash-link" aria-label="Direct link to Project: XToolset" title="Direct link to Project: XToolset">​</a></h3>
+<p>After almost a year of not developing this fantastic project, I've returned to push it further. It has potential and I want to develop it. For those who don't aware, XToolset is a set of tools specialized in specific tasks, such as generating spreadsheets based on templates and facilitating easy data import.</p>
+<p>Soon I'll submit some pull requests with a few improvements on GitHub and put a bundle on the CDN server. Following that, I'll release a new version. First, though, I want to develop ExcelJS, as xtoolset relies on it.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="project-is-comming">Project: is comming!<a href="https://siemienik.com/blog/2023/04/28/siema-team-and-merge-fests#project-is-comming" class="hash-link" aria-label="Direct link to Project: is comming!" title="Direct link to Project: is comming!">​</a></h3>
+<p><del>Additionally, I'm currently launching a startup. At this moment, I'm working out the details and getting ready to assemble a team. I hope to share our MVP in the near future.</del></p>
+<p>Thank you for your attention. I hope you enjoyed reading my update! Best regards, and see you soon!</p>]]></content:encoded>
+            <category>OpenSource</category>
+            <category>ExcelJS</category>
+            <category>XToolset</category>
+            <category>MergeFest</category>
+            <category>SiemaTeam</category>
+            <category>Spreadsheets</category>
+            <category>Collaboration</category>
+            <category>TypeScript</category>
+            <category>SoftwareDevelopment</category>
+        </item>
+        <item>
+            <title><![CDATA[XToolset v2.4.4]]></title>
+            <link>https://siemienik.com/blog/2021/11/11/release-version-2.4.4</link>
+            <guid>https://siemienik.com/blog/2021/11/11/release-version-2.4.4</guid>
+            <pubDate>Thu, 11 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[What's Changes]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-changes">What's Changes<a href="https://siemienik.com/blog/2021/11/11/release-version-2.4.4#whats-changes" class="hash-link" aria-label="Direct link to What's Changes" title="Direct link to What's Changes">​</a></h2>
+<ul>
+<li>Version number being be unified for <code>xlsx-import</code> and <code>xlsx-renderer</code>.</li>
+<li>Added node 16.x, 17.x to tests suites  by @Siemienik in <a href="https://github.com/Siemienik/XToolset/pull/197" target="_blank" rel="noopener noreferrer">https://github.com/Siemienik/XToolset/pull/197</a></li>
+<li>Added dateMapper with protection against invalid value passes as valid. by @Siemienik in <a href="https://github.com/Siemienik/XToolset/pull/192" target="_blank" rel="noopener noreferrer">https://github.com/Siemienik/XToolset/pull/192</a></li>
+<li>Implement add file from buffer by @AlinaKul in <a href="https://github.com/Siemienik/XToolset/pull/196" target="_blank" rel="noopener noreferrer">https://github.com/Siemienik/XToolset/pull/196</a></li>
+<li>Issue 81: Added getFirstItem method by @maryiabydanova in <a href="https://github.com/Siemienik/XToolset/pull/198" target="_blank" rel="noopener noreferrer">https://github.com/Siemienik/XToolset/pull/198</a></li>
+<li>Security updates (npm audit fixes).</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-contributors">New Contributors<a href="https://siemienik.com/blog/2021/11/11/release-version-2.4.4#new-contributors" class="hash-link" aria-label="Direct link to New Contributors" title="Direct link to New Contributors">​</a></h2>
+<ul>
+<li>@AlinaKul made their first contribution in <a href="https://github.com/Siemienik/XToolset/pull/196" target="_blank" rel="noopener noreferrer">https://github.com/Siemienik/XToolset/pull/196</a></li>
+<li>@maryiabydanova made their first contribution in <a href="https://github.com/Siemienik/XToolset/pull/198" target="_blank" rel="noopener noreferrer">https://github.com/Siemienik/XToolset/pull/198</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="links">Links<a href="https://siemienik.com/blog/2021/11/11/release-version-2.4.4#links" class="hash-link" aria-label="Direct link to Links" title="Direct link to Links">​</a></h2>
+<ul>
+<li>NPM xlsx-renderer: <a href="https://www.npmjs.com/package/xlsx-renderer" target="_blank" rel="noopener noreferrer">https://www.npmjs.com/package/xlsx-renderer</a></li>
+<li>NPM xlsx-import: <a href="https://www.npmjs.com/package/xlsx-import" target="_blank" rel="noopener noreferrer">https://www.npmjs.com/package/xlsx-import</a></li>
+<li>GH Release: <a href="https://github.com/Siemienik/XToolset/releases/tag/v2.4.4" target="_blank" rel="noopener noreferrer">https://github.com/Siemienik/XToolset/releases/tag/v2.4.4</a></li>
+<li><strong>GH Discussion:</strong> <a href="https://github.com/Siemienik/XToolset/discussions/199" target="_blank" rel="noopener noreferrer">https://github.com/Siemienik/XToolset/discussions/199</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/Siemienik/XToolset/compare/xlsx-renderer-v2.4.3...v2.4.4" target="_blank" rel="noopener noreferrer">https://github.com/Siemienik/XToolset/compare/xlsx-renderer-v2.4.3...v2.4.4</a></p>]]></content:encoded>
+            <category>OpenSource</category>
+            <category>Release</category>
+            <category>xlsx-renderer</category>
+            <category>xlsx-import</category>
+            <category>XToolset</category>
+            <category>Spreadsheets</category>
+            <category>Collaboration</category>
+            <category>SoftwareDevelopment</category>
+        </item>
+    </channel>
+</rss>

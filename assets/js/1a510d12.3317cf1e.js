@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksiemienik_com=self.webpackChunksiemienik_com||[]).push([[6661],{7899:s=>{s.exports=JSON.parse('{"label":"xlsx-import","permalink":"/blog/tags/xlsx-import","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

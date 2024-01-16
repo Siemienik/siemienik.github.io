@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksiemienik_com=self.webpackChunksiemienik_com||[]).push([[7150],{4061:e=>{e.exports=JSON.parse('{"label":"MergeFest","permalink":"/blog/tags/merge-fest","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);

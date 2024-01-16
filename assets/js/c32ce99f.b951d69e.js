@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksiemienik_com=self.webpackChunksiemienik_com||[]).push([[9926],{6170:e=>{e.exports=JSON.parse('{"label":"SiemaTeam","permalink":"/blog/tags/siema-team","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

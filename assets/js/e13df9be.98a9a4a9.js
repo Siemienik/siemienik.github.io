@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksiemienik_com=self.webpackChunksiemienik_com||[]).push([[9872],{473:e=>{e.exports=JSON.parse('{"label":"Spreadsheets","permalink":"/blog/tags/spreadsheets","allTagsPath":"/blog/tags","count":3,"unlisted":false}')}}]);

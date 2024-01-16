@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksiemienik_com=self.webpackChunksiemienik_com||[]).push([[2302],{8531:e=>{e.exports=JSON.parse('{"label":"xlsx-renderer","permalink":"/blog/tags/xlsx-renderer","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksiemienik_com=self.webpackChunksiemienik_com||[]).push([[9169],{7736:e=>{e.exports=JSON.parse('{"label":"OpenSource","permalink":"/blog/tags/open-source","allTagsPath":"/blog/tags","count":3,"unlisted":false}')}}]);

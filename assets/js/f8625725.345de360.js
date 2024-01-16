@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksiemienik_com=self.webpackChunksiemienik_com||[]).push([[7279],{5928:e=>{e.exports=JSON.parse('{"label":"ExcelJS","permalink":"/blog/tags/excel-js","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);

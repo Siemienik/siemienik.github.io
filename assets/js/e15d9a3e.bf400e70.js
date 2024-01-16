@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksiemienik_com=self.webpackChunksiemienik_com||[]).push([[3004],{464:e=>{e.exports=JSON.parse('{"label":"XToolset","permalink":"/blog/tags/x-toolset","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);
